@@ -9,18 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/global.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/fonts/stylesheet.css" media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Abel|Anton' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/slides.min.jquery.js"></script>
-	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/ProgressiveImageSequence.class.js"></script>
-	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/stickytitle.js"></script>
-	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/scripts.js"></script>
 	<?php
+	wp_enqueue_script('slides', get_bloginfo('template_directory').'/js/slides.min.jquery.js', array('jquery'));
+	wp_enqueue_script('ProgressiveImageSequence', get_bloginfo('template_directory').'/js/ProgressiveImageSequence.class.js', array('jquery'));
+	wp_enqueue_script('stickytitle', get_bloginfo('template_directory').'/js/stickytitle.js', array('jquery'));
+	wp_enqueue_script('scripts', get_bloginfo('template_directory').'/js/scripts.js', array('jquery'));
 	wp_head();
 	?>
 </head>
 <body <?php body_class(); ?>>
 <div id="main">
-<div class="video_lasplash" style="z-index:-999;"><img src="images/bg/verde-00000.jpg"></div>
+<div class="video_lasplash" style="z-index:-999;"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bg/verde-00000.jpg"></div>
    <div class="navigation">
     <ul>
       <li><a class="home" href="#portada">Inicio <span>home</span></a></li>
@@ -31,7 +30,7 @@
   </div>
   <div id="portada" class="cont"> <a name="portada"></a>
     <div class="titulo"></div>
-    <div class="content"> <span class="logo"><img src="images/comparte_tu_look.png"></span> <span class="frase">
+    <div class="content"> <span class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/images/comparte_tu_look.png"></span> <span class="frase">
       <h1 class="titulo_lasplash">Un Concurso de LASPlash cosmetics</h1>
       <p>Cupcake ipsum dolor. Sit amet muffin gingerbread brownie marshmallow cheesecake tiramisu. Tootsie roll biscuit tart chupa chups biscuit. Wafer powder candy apple pie sweet danish gummies. </p>
       </span> </div>
@@ -56,7 +55,7 @@
               y tus uñas pintadas </div>
             <!--/paso dos-->
             <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el <b>producto<br>
-              LASPlash</b> que utilizaste <img src="images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
+              LASPlash</b> que utilizaste <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
             <!--/paso tres-->
           </div>
           <!--/content-->
@@ -90,7 +89,7 @@
   <div class="cont">
     <div class="content">
       <h3 class="subt tips">Tips de Maquillaje</h3>
-      <div class="video"><img src="images/demo_video.png" alt="demo video"></div>
+      <div class="video"><img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_video.png" alt="demo video"></div>
       <span class="store_locator">STORELOCATOR <br>
       FARMACIAS REVILLA <br>
       SANBORNS <br>
@@ -107,7 +106,7 @@
           <b>m&aacute;s votada</b><span class="guia"></span>
         </div>
         <div class="avatar">
-        <img alt="La foto mas votada" src="images/avatar_mas_votada.jpg">
+        <img alt="La foto mas votada" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_mas_votada.jpg">
         <span class="likes">1882<span class="left"></span><span class="right"></span></span>
         </div>
       </div>
@@ -118,15 +117,15 @@
       <div class="ultimas_concursantes">
       <span class="concursante">
       maria rodriguez <span class="numero_likes">17</span>
-      <img alt="maria rodriguez" src="images/avatar_votos.jpg">
+      <img alt="maria rodriguez" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
       </span> 
       <span class="concursante">
       adriana g&oacute;mez <span class="numero_likes">54</span>
-      <img alt="adriana g&oacute;mez" src="images/avatar_votos.jpg">
+      <img alt="adriana g&oacute;mez" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
       </span> 
       <span class="concursante">
       sabrina guzman <span class="numero_likes">32</span>
-      <img alt="sabrina guzman" src="images/avatar_votos.jpg">
+      <img alt="sabrina guzman" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
       </span>
       </div>
       <!--/ultimas concursantes-->
@@ -143,7 +142,7 @@
       <div class="box">
         <h3>Nombre del producto</h3>
         <p>Cupcake ipsum dolor sit amet carrot cake topping. Cotton candy pie ice cream chupa chups halvah liquorice. Faworki biscuit chocolate gummies carrot cake. Candy canes marshmallow ice cream sugar plum muffin tiramisu. Cookie jelly beans chocolate cake danish cake toffee bonbon topping sugar plum.</p>
-        <img src="images/productos/lasplash_delineador.png"> </div>
+        <img src="<?php bloginfo( 'template_directory' ); ?>/images/productos/lasplash_delineador.png"> </div>
     </div>
     <!--/content--> 
   </div>

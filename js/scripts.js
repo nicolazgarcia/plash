@@ -33,9 +33,20 @@
 	     function () {
 	      $(this).stop().animate({opacity: 0}, 'slow');
 		 });
-		$('ul.look_btn a').live('click', function(){
-			$("ul.look_btn .active").removeClass("active");
-			$(this).addClass("active");
+		$(".look_cont img").hide();
+		$("ul.look_btn li:first-child a").addClass("active").show();
+		$(".look_cont img:first-child").show();
+
+		$("ul.look_btn li").on('click', function(){
+			$(this).siblings().children('a').removeClass("active");
+			$(this).children('a').addClass("active");
+			
+			var $images = $(this).parents('.look_box').find('.look_cont img');
+			$images.hide();
+			var activeIndex = $(this).index();
+			$images.eq(activeIndex).fadeIn();
+			
+			return false;
 		});
 	});
 })(jQuery);

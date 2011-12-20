@@ -50,11 +50,11 @@ $(document).ready(function () {
 	$("ul.look_btn li:first a").addClass("active").show();
 	$(".gall_look li:first").show();
 
-	$("ul.look_btn li").live('click', function(){
+	$("ul.look_btn li a").live('click', function(){
 		$('ul.look_btn li a').removeClass("active");
 		$(this).addClass("active");
 		$(".gall_look li").hide();
-		var activeImg = $(this).find("a").attr("href");
+		var activeImg = $(this).attr("href");
 		$(activeImg).fadeIn();
 		return false;
 	});	
@@ -307,16 +307,18 @@ $(document).ready(function () {
             <h3 class="subt look">Looks LASPlash</h3>
             <div class="look_box">
                 <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
+                    <li><a class="natural" href="#img_natural">look natural<span></span></a></li>
+                    <li><a class="casual" href="#img_casual">look casual<span></span></a></li>
+                    <li><a class="noche" href="#img_noche">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#img_fantasia">look fantasia<span></span></a></li>                </ul>
                 <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
-                </div>     
+                <ul class="gall_look">
+                    <li id="img_natural"><img alt="look natural"></li>
+                    <li id="img_casual"><img alt="look casual"></li>
+                    <li id="img_noche"><img alt="look noche"></li>
+                    <li id="img_fantasia"><img alt="look fantasia"></li>
+                 </ul> 
+                </div>    
             </div>
             <!--/look-->
           </div>
@@ -412,15 +414,17 @@ $(document).ready(function () {
             <h3 class="subt look">Looks LASPlash</h3>
             <div class="look_box">
                 <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
+                    <li><a class="natural" href="#img_natural">look natural<span></span></a></li>
+                    <li><a class="casual" href="#img_casual">look casual<span></span></a></li>
+                    <li><a class="noche" href="#img_noche">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#img_fantasia">look fantasia<span></span></a></li>                </ul>
                 <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
+                <ul class="gall_look">
+                    <li id="img_natural"><img alt="look natural"></li>
+                    <li id="img_casual"><img alt="look casual"></li>
+                    <li id="img_noche"><img alt="look noche"></li>
+                    <li id="img_fantasia"><img alt="look fantasia"></li>
+                 </ul> 
                 </div>    
             </div>
             <!--/look-->
@@ -516,17 +520,19 @@ $(document).ready(function () {
          <div class="content">
             <h3 class="subt look">Looks LASPlash</h3>
             <div class="look_box">
-                <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
+               <ul class="look_btn">
+                    <li><a class="natural" href="#img_natural">look natural<span></span></a></li>
+                    <li><a class="casual" href="#img_casual">look casual<span></span></a></li>
+                    <li><a class="noche" href="#img_noche">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#img_fantasia">look fantasia<span></span></a></li>                </ul>
                 <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
-                </div>    
+                <ul class="gall_look">
+                    <li id="img_natural"><img alt="look natural"></li>
+                    <li id="img_casual"><img alt="look casual"></li>
+                    <li id="img_noche"><img alt="look noche"></li>
+                    <li id="img_fantasia"><img alt="look fantasia"></li>
+                 </ul> 
+                </div>   
             </div>
             <!--/look-->
           </div>

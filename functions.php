@@ -1,4 +1,8 @@
 <?php
+add_theme_support('post-thumbnails');
+add_image_size('look-thumb', 272, 196, true);
+add_image_size('product-thumb', 88, 121);
+
 /*
  * jQuery desde Google
  */

@@ -14,7 +14,7 @@
 	wp_enqueue_script('ProgressiveImageSequence', get_bloginfo('template_directory').'/js/ProgressiveImageSequence.class.js', array('jquery'));
 	wp_enqueue_script('stickytitle', get_bloginfo('template_directory').'/js/stickytitle.js', array('jquery'));
 	wp_enqueue_script('scripts', get_bloginfo('template_directory').'/js/scripts.js', array('jquery'));
-	wp_enqueue_script('footer', get_bloginfo('template_directory').'/js/footer.js', array('jquery'), '', true);
+	//wp_enqueue_script('footer', get_bloginfo('template_directory').'/js/footer.js', array('jquery'), '', true);
 	wp_head();
 	?>
 </head>
@@ -149,130 +149,26 @@
     </div>
     <!--/content--> 
   </div>
-  <!--/cont /#recursos--> 
-  <div class="cont">
-  	<div id="slides2">
-    <div class="slides_container">
-        <div class="slide">
-         <div class="content">
-            <h3 class="subt look">Looks LASPlash</h3>
-            <div class="look_box">
-                <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
-                <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
-                </div>    
-            </div>
-            <!--/look-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Danish gummies croissant marzipan pudding chocolate bar. Gummies cheesecake pudding.</span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide--> 
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Danish gummies croissant marzipan pudding chocolate bar. Gummies cheesecake pudding.</span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="blush" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="lipgloss" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>           
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Danish gummies croissant marzipan pudding chocolate bar. Gummies cheesecake pudding.</span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide-->
-      </div>
-      <!--/slides_container-->
-    </div>
-    <!--#slides2--> 
-  </div>
-  <!--/cont-->
   
+  <?php $lookcounter = 1; ?>
+  <?php query_posts("post_type=page&posts_per_page=-1&orderby=menu_order&order=ASC&post_parent=0"); ?>
+  <?php while (have_posts()) : the_post(); ?>
+  <?php $lookcounter++; ?>
   <div class="cont">
-  	<div id="slides3">
+  	<div id="slides<?php echo $lookcounter; ?>">
     <div class="slides_container">
-        <div class="slide">
+       <div class="slide">
          <div class="content">
-            <h3 class="subt look">Looks LASPlash</h3>
+            <h3 class="subt look"><?php the_title(); ?></h3>
             <div class="look_box">
                 <ul class="look_btn">
                     <li><a class="natural" href="#">look natural<span></span></a></li>
                     <li><a class="casual" href="#">look casual<span></span></a></li>
                     <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
+                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>
+				</ul>
                 <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
+                    <?php echo do_shortcode('[gallery columns="0" size="look-thumb" itemtag="div" icontag="span" captiontag="p"]'); ?>
                 </div>    
             </div>
             <!--/look-->
@@ -280,297 +176,48 @@
           <!--/content--> 
         </div>
         <!--/slide-->
+        
         <div class="slide">
           <div class="content">
             <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Danish gummies croissant marzipan pudding chocolate bar. Gummies cheesecake pudding.</span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide--> 
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Danish gummies croissant marzipan pudding chocolate bar. Gummies cheesecake pudding.</span>             
-            </div>
-            <!--/box_producto-->
-             <img alt="blush" width="84" height="82">
+        <?php
+        $counter = 0;
+		$products = get_posts("post_type=page&posts_per_page=6&orderby=menu_order&order=ASC&post_parent=".$post->ID);
+		foreach( $products as $page ):
+			if ($counter && ($counter % 2 == 0) ){
+				echo '</div></div><div class="slide"><div class="content"><h3 class="subt producto">Productos</h3>';
+			}
+			$counter++;
+		?>
+			<div class="producto<? echo ($counter % 2 == 0)? '2':''; ?>">
+	          <div class="box_producto">
+	            <span class="nombre"><?php echo $page->post_title; ?></span>
+	            <span class="descripcion"><?php echo $page->post_content; ?></span>            
+	          </div>
+              <!--/box_producto-->
+              <?php
+              if( has_post_thumbnail($page->ID) ) {
+				echo get_the_post_thumbnail($page->ID, 'product-thumb');
+			  } else {
+				echo '<img alt="'.$page->post_title.'" />';
+			  }
+			  ?>
             </div>
             <!--/producto-->
-            <div class="producto2">
-            <img alt="lipgloss" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>             
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre">Nombre del producto</span>
-            <span class="descripcion">Pastry faworki pastry faworki toffee pie carrot cake faworki. Lemon drops pudding applicake macaroon carrot cake. Chocolate bar</span>             
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
+        <?php endforeach; ?>
+        
+		  </div>
           <!--/content-->  
         </div>
         <!--/slide-->
-      </div>
+	  </div>
       <!--/slides_container-->
     </div>
-    <!--#slides3--> 
+    <!--#slides2-->
   </div>
   <!--/cont-->  
-  <div class="cont">
-  	<div id="slides4">
-    <div class="slides_container">
-        <div class="slide">
-         <div class="content">
-            <h3 class="subt look">Looks LASPlash</h3>
-            <div class="look_box">
-                <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
-                <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
-                </div>    
-            </div>
-            <!--/look-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide--> 
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="blush" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="lipgloss" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide-->
-      </div>
-      <!--/slides_container-->
-    </div>
-    <!--#slides4--> 
-  </div>
-  <!--/cont-->
-  <div class="cont">
-  	<div id="slides5">
-    <div class="slides_container">
-        <div class="slide">
-         <div class="content">
-            <h3 class="subt look">Looks LASPlash</h3>
-            <div class="look_box">
-                <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>                </ul>
-                <div class="look_cont">
-                    <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">                 
-                    <img alt="look fantasia">
-                </div>    
-            </div>
-            <!--/look-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide--> 
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="blush" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="lipgloss" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content--> 
-        </div>
-        <!--/slide-->
-        <div class="slide">
-          <div class="content">
-            <h3 class="subt producto">Productos</h3>
-            <div class="producto">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-             <img alt="corrector" width="84" height="82">
-            </div>
-            <!--/producto-->
-            <div class="producto2">
-            <img alt="base" width="88" height="121">
-            <div class="box_producto">
-            <span class="nombre"></span>
-            <span class="descripcion"></span>            
-            </div>
-            <!--/box_producto-->
-            </div>
-            <!--/producto-->
-          </div>
-          <!--/content-->  
-        </div>
-        <!--/slide-->
-      </div>
-      <!--/slides_container-->
-    </div>
-    <!--#slides5--> 
-  </div>
-  <!--/cont-->  
+  <?php endwhile; ?>
+  <?php wp_reset_query(); ?>
 </div>
 <?php
 	wp_footer();

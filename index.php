@@ -32,7 +32,9 @@
     <div class="titulo"></div>
     <div class="content"> <span class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/images/comparte_tu_look.png"></span> <span class="frase">
       <h1 class="titulo_lasplash">Un Concurso de LASPlash cosmetics</h1>
-      <p>Cupcake ipsum dolor. Sit amet muffin gingerbread brownie marshmallow cheesecake tiramisu. Tootsie roll biscuit tart chupa chups biscuit. Wafer powder candy apple pie sweet danish gummies. </p>
+      <?php if ( is_active_sidebar( 'home-widget-area' ) ) {
+		dynamic_sidebar( 'home-widget-area' );
+	  } ?>
       </span> </div>
     <!--content-->
   </div>

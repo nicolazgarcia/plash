@@ -19,7 +19,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="main">
-<div class="video_lasplash" style="z-index:-999;"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bg/verde-00000.jpg"></div>
+<div class="video_lasplash" style="z-index:-999;"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bg/video-0001.jpg"></div>
    <div class="navigation">
     <ul>
       <li><a class="home" href="#portada">Inicio <span>home</span></a></li>
@@ -32,7 +32,7 @@
     <div class="titulo"></div>
     <div class="content"> <span class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/images/comparte_tu_look.png"></span> <span class="frase">
       <h1 class="titulo_lasplash">Un Concurso de LASPlash cosmetics</h1>
-      <p>Cupcake ipsum dolor. Sit amet muffin gingerbread brownie marshmallow cheesecake tiramisu. Tootsie roll biscuit tart chupa chups biscuit. Wafer powder candy apple pie sweet danish gummies. </p>
+      <p>“Te imaginas irte en un crucero por el caribe con tu mejor amiga? Conoce el concurso que tenemos para ti, participa y gana!”</p>
       </span> </div>
     <!--content-->
   </div>
@@ -64,9 +64,9 @@
         <div class="slide">
           <div class="content">
             <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
-              ya sea con una pose o con las dos ! <b>concurso@laspanama.com</b> </div>
+              ya sea con una pose o con las dos ! <b>concurso@lasplashcosmetics.com.pa</b> </div>
             <!--/paso cuatro-->
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash</b> panama en <b>facebook</b> para ver tu foto </div>
+            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash panama<b> en <b>facebook</b> para ver tu foto </div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
             <!--/paso seis-->
@@ -645,7 +645,7 @@
 						  .css('top',top+'px');
 			}
 			// video handling
-			var imageSeqLoader = new ProgressiveImageSequence( "images/bg/verde-{index}.jpg" , 900 , {
+			var imageSeqLoader = new ProgressiveImageSequence( "images/bg/video-{index}.jpg" , 961 , {
 				indexSize: 4,
 				initialStep: 16,
 				onProgress: handleLoadProgress,

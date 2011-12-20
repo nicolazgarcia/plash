@@ -69,7 +69,7 @@
             <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
               ya sea con una pose o con las dos ! <b>concurso@lasplashcosmetics.com.pa</b> </div>
             <!--/paso cuatro-->
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash panama<b> en <b>facebook</b> para ver tu foto </div>
+            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash panama</b> en <b>facebook</b> para ver tu foto </div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
             <!--/paso seis-->
@@ -187,24 +187,35 @@
 			if ($counter && ($counter % 2 == 0) ){
 				echo '</div></div><div class="slide"><div class="content"><h3 class="subt producto">Productos</h3>';
 			}
-			$counter++;
+			
+			if( has_post_thumbnail($page->ID) ){
+				$prod_img = get_the_post_thumbnail($page->ID, 'product-thumb');
+			}else{
+				$prod_img = '<img alt="'.$page->post_title.'" />';
+			}
 		?>
-			<div class="producto<? echo ($counter % 2 == 0)? '2':''; ?>">
+			<div class="producto<? echo ($counter%2)? '2':''; ?>">
+			  <?php
+              if($counter%2) {
+              	echo $prod_img;
+			  }
+			  ?>
 	          <div class="box_producto">
 	            <span class="nombre"><?php echo $page->post_title; ?></span>
 	            <span class="descripcion"><?php echo $page->post_content; ?></span>            
 	          </div>
               <!--/box_producto-->
               <?php
-              if( has_post_thumbnail($page->ID) ) {
-				echo get_the_post_thumbnail($page->ID, 'product-thumb');
-			  } else {
-				echo '<img alt="'.$page->post_title.'" />';
+              if( ! ($counter%2)) {
+              	echo $prod_img;
 			  }
 			  ?>
             </div>
             <!--/producto-->
-        <?php endforeach; ?>
+        <?php
+			$counter++;
+        endforeach;
+        ?>
         
 		  </div>
           <!--/content-->  

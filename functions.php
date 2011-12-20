@@ -1,5 +1,7 @@
 <?php
 add_theme_support('post-thumbnails');
+add_image_size('leader-thumb', 189, 189, true);
+add_image_size('latest-thumb', 75, 75, true);
 add_image_size('look-thumb', 272, 196, true);
 add_image_size('product-thumb', 88, 121);
 
@@ -23,6 +25,16 @@ function widgets_init() {
 		'name' => 'Home',
 		'id' => 'home-widget-area',
 		'description' => 'Area para texto home',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
+	) );
+	// Area 0, video tips.
+	register_sidebar( array(
+		'name' => 'Video',
+		'id' => 'video-widget-area',
+		'description' => 'Area para video tips',
 		'before_widget' => '',
 		'after_widget' => '',
 		'before_title' => '',

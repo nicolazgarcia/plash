@@ -92,7 +92,11 @@
   <div class="cont">
     <div class="content">
       <h3 class="subt tips">Tips de Maquillaje</h3>
-      <div class="video"><img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_video.png" alt="demo video"></div>
+      <div class="video">
+      <?php if ( is_active_sidebar( 'video-widget-area' ) ) {
+		dynamic_sidebar( 'video-widget-area' );
+      } ?>
+      </div>
       <span class="store_locator">STORELOCATOR <br>
       FARMACIAS REVILLA <br>
       SANBORNS <br>
@@ -104,34 +108,54 @@
       <h1>Avances del Concurso</h1>
     </div>
     <div class="content">
+    <?php query_posts("posts_per_page=1"); ?>
+	<?php while (have_posts()) : the_post(); ?>
       <div class="box">
         <div class="globo_mas_votada">la foto <br>
           <b>m&aacute;s votada</b><span class="guia"></span>
         </div>
         <div class="avatar">
-        <img alt="La foto mas votada" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_mas_votada.jpg">
-        <span class="likes">1882<span class="left"></span><span class="right"></span></span>
+        <?php
+        	if( has_post_thumbnail() ){
+				the_post_thumbnail('leader-thumb');
+			}else{
+				echo '<img alt="La foto mas votada" src="'.get_bloginfo( 'template_directory' ).'/images/avatar_mas_votada.jpg">';
+			}
+		?>
+        <span class="likes"><?php echo simple_fields_get_post_value($post->ID, "Votos", true); ?><span class="left"></span><span class="right"></span></span>
         </div>
       </div>
       <!--/box-->
       <h3 class="subt total_c">Total de concursantes</h3>
-      <div class="total_concursantes"> <span>1</span><span>2</span><span>9</span></div>
+      <?php
+      $total = simple_fields_get_post_value($post->ID, "Concursantes", true);
+	  $total_spans = '';
+	  for ($i=0; $i<strlen($total); $i++) {
+	  	$total_spans .= '<span>'.$total[$i].'</span>';
+	  }
+      ?>
+      <div class="total_concursantes"><?php echo $total_spans; ?></div>
       <h3 class="subt ultimas_c">Ultimas concursantes</h3>
       <div class="ultimas_concursantes">
-      <span class="concursante">
-      maria rodriguez <span class="numero_likes">17</span>
-      <img alt="maria rodriguez" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
-      </span> 
-      <span class="concursante">
-      adriana g&oacute;mez <span class="numero_likes">54</span>
-      <img alt="adriana g&oacute;mez" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
-      </span> 
-      <span class="concursante">
-      sabrina guzman <span class="numero_likes">32</span>
-      <img alt="sabrina guzman" src="<?php bloginfo( 'template_directory' ); ?>/images/avatar_votos.jpg">
-      </span>
+      	<?php
+      	$default_pic = get_bloginfo( 'template_directory' ).'/images/avatar_votos.jpg';
+		$ultimas = simple_fields_get_post_group_values($post->ID, "Ultimas", true, 2);
+		foreach($ultimas as $girl){
+			echo '<span class="concursante">';
+			echo $girl['Nombre'].'<span class="numero_likes">'.$girl['Likes'].'</span>';
+			if ($image_id = $girl['Imagen']){
+				$img_attrs = wp_get_attachment_image_src($image_id, 'latest-thumb');
+				$img_src = $img_attrs[0];
+			}else{
+				$img_src = $default_pic;
+			}
+			echo '<img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></span>';
+		}
+		?>
       </div>
       <!--/ultimas concursantes-->
+    <?php endwhile; ?>
+    <?php wp_reset_query(); ?>
     </div>
     <!--content-->
   </div>
@@ -168,7 +192,10 @@
                     <li><a class="fantasia" href="#">look fantasia<span></span></a></li>
 				</ul>
                 <div class="look_cont">
-                    <?php echo do_shortcode('[gallery columns="0" size="look-thumb" itemtag="div" icontag="span" captiontag="p"]'); ?>
+                    <img alt="look natural">
+                    <img alt="look casual">
+                    <img alt="look noche">
+                    <img alt="look fantasia">
                 </div>    
             </div>
             <!--/look-->
@@ -226,7 +253,7 @@
     </div>
     <!--#slides2-->
   </div>
-  <!--/cont-->  
+  <!--/cont-->
   <?php endwhile; ?>
   <?php wp_reset_query(); ?>
 </div>

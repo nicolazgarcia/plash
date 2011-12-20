@@ -41,14 +41,12 @@ body {
     background-repeat: no-repeat;
     background-position: 1px 6px;
 }
+.video_lasplash{
+	position:fixed;
+}
 .video_lasplash > img, .video_lasplash > video {
 	width: 520px;
 	height: 545px;
-}
-.sticky {
-	position: fixed;
-	top: 0;
-	z-index: 99;
 }
 /*--------navegacion-----------*/
 .navigation {
@@ -99,6 +97,7 @@ body {
   background: -moz-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3));  
   background: -ms-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3)); 
   background: -o-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3));
+  position: relative; z-index: 99;
 }
 #main .titulo h1 { height:56px; line-height:56px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
 #main h3.subt { height:27px; font-family: 'Abel', sans-serif; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
@@ -111,6 +110,13 @@ body {
 #portada .frase { font-size:14px; text-align:justify; letter-spacing:2px;}
 #portada .frase p { padding:8px 0; margin-top:11px; border-top:1px solid #FFF; border-bottom:1px solid #FFF;}
 
+#main .sticky {
+	position: fixed;
+	top: 0;
+}
+.fake_title{
+	width:100%; height:56px; margin-bottom:15px;
+}
 /*--------------------------------*/
 #instrucciones .titulo h1 { background-position:84px 12px;}
 #instrucciones h3.reglas { width:199px; background:#EC297B; }

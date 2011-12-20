@@ -2,7 +2,7 @@
 {
 	$.fn.stickytitle = function()
 	{
-		var atTheTop = function(index)
+		var atTheTop = function(element, index)
 		{
 			return $(window).scrollTop() > el_tops[index];
 		}
@@ -15,8 +15,17 @@
 
 		$(window).on('scroll', function(e){
 			elements.each(function(index){
-				var is_sticky = atTheTop(index);
+				var is_sticky = atTheTop(this, index);
 				$(this).toggleClass('sticky', is_sticky);
+
+				//hay que compensar el titulo que lo saco del layout
+				if (is_sticky){
+					if ($(this).next('.fake_title').length == 0){
+						$(this).after('<div class="fake_title"></div>');
+					}
+				}else{
+					$(this).next('.fake_title').remove();
+				}
 			});
 		});
 

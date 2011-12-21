@@ -30,7 +30,6 @@
     </ul>
   </div>
   <div id="portada" class="cont"> <a name="portada"></a>
-    <div class="titulo"></div>
     <div class="content"> <span class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/images/comparte_tu_look.png"></span> <span class="frase">
       <h1 class="titulo_lasplash">Un Concurso de LASPlash cosmetics</h1>
       <?php if ( is_active_sidebar( 'home-widget-area' ) ) {
@@ -178,7 +177,10 @@
   <?php query_posts("post_type=page&posts_per_page=-1&orderby=menu_order&order=ASC&post_parent=0"); ?>
   <?php while (have_posts()) : the_post(); ?>
   <?php $lookcounter++; ?>
-  <div class="cont">
+  <div id="natural" class="cont">
+  <!--
+  ahora no hay galeria la navegacion es por las 4 secciones y los botones de navegacion son los de look_btn
+  -->
   	<div id="slides<?php echo $lookcounter; ?>">
     <div class="slides_container">
        <div class="slide">
@@ -186,16 +188,13 @@
             <h3 class="subt look"><?php the_title(); ?></h3>
             <div class="look_box">
                 <ul class="look_btn">
-                    <li><a class="natural" href="#">look natural<span></span></a></li>
-                    <li><a class="casual" href="#">look casual<span></span></a></li>
-                    <li><a class="noche" href="#">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#">look fantasia<span></span></a></li>
+                    <li><a class="natural" href="#natural">look natural<span></span></a></li>
+                    <li><a class="casual" href="#casual">look casual<span></span></a></li>
+                    <li><a class="noche" href="#noche">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#fantasia">look fantasia<span></span></a></li>
 				</ul>
                 <div class="look_cont">
                     <img alt="look natural">
-                    <img alt="look casual">
-                    <img alt="look noche">
-                    <img alt="look fantasia">
                 </div>    
             </div>
             <!--/look-->

@@ -188,10 +188,10 @@
             <h3 class="subt look"><?php the_title(); ?></h3>
             <div class="look_box">
                 <ul class="look_btn">
-                    <li><a class="natural" href="#slide2">look natural<span></span></a></li>
-                    <li><a class="casual" href="#slide3">look casual<span></span></a></li>
-                    <li><a class="noche" href="#slide4">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#slide5">look fantasia<span></span></a></li>
+                    <li><a class="natural" href="#slides2">look natural<span></span></a></li>
+                    <li><a class="casual" href="#slides3">look casual<span></span></a></li>
+                    <li><a class="noche" href="#slides4">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#slides5">look fantasia<span></span></a></li>
 				</ul>
                 <div class="look_cont">
                     <img alt="look natural">

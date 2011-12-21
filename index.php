@@ -177,7 +177,7 @@
   <?php query_posts("post_type=page&posts_per_page=-1&orderby=menu_order&order=ASC&post_parent=0"); ?>
   <?php while (have_posts()) : the_post(); ?>
   <?php $lookcounter++; ?>
-  <div id="natural" class="cont">
+  <div class="cont">
   <!--
   ahora no hay galeria la navegacion es por las 4 secciones y los botones de navegacion son los de look_btn
   -->
@@ -188,10 +188,10 @@
             <h3 class="subt look"><?php the_title(); ?></h3>
             <div class="look_box">
                 <ul class="look_btn">
-                    <li><a class="natural" href="#natural">look natural<span></span></a></li>
-                    <li><a class="casual" href="#casual">look casual<span></span></a></li>
-                    <li><a class="noche" href="#noche">look noche<span></span></a></li>
-                    <li><a class="fantasia" href="#fantasia">look fantasia<span></span></a></li>
+                    <li><a class="natural" href="#slide2">look natural<span></span></a></li>
+                    <li><a class="casual" href="#slide3">look casual<span></span></a></li>
+                    <li><a class="noche" href="#slide4">look noche<span></span></a></li>
+                    <li><a class="fantasia" href="#slide5">look fantasia<span></span></a></li>
 				</ul>
                 <div class="look_cont">
                     <img alt="look natural">

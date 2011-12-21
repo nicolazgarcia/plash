@@ -33,10 +33,10 @@
 	     function () {
 	      $(this).stop().animate({opacity: 0}, 'slow');
 		 });
-            $("#natural a.natural span").css("opacity","1");
-	    $("#casual a.casual span").css("opacity","1");
-	    $("#noche a.noche span").css("opacity","1");
-	    $("#fantasia a.fantasia span").css("opacity","1");		 
+            $("#slides2 a.natural span").css("opacity","1");
+	    $("#slides3 a.casual span").css("opacity","1");
+	    $("#slides4 a.noche span").css("opacity","1");
+	    $("#slides5 a.fantasia span").css("opacity","1");		 
 		 /*
 		$(".look_cont img").hide();
 		$("ul.look_btn li:first-child a").addClass("active").show();

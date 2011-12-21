@@ -54,5 +54,14 @@
 			return false;
 		});
 		*/
+		/*$('.navigation a , .look_btn a').click(function () {
+			$.scrollTo($(this).attr('href'), 800);
+			return false;
+		});*/
+		$('.pagination a, .prev, .next').click(function () {
+			var $parent_slide = $(this).parents('#slides2, #slides3, #slides4, #slides5');					
+			$.scrollTo($parent_slide, 200);
+			return false;
+		});
 	});
 })(jQuery);

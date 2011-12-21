@@ -13,8 +13,9 @@
 	wp_enqueue_script('slides', get_bloginfo('template_directory').'/js/slides.min.jquery.js', array('jquery'));
 	wp_enqueue_script('ProgressiveImageSequence', get_bloginfo('template_directory').'/js/ProgressiveImageSequence.class.js', array('jquery'));
 	wp_enqueue_script('stickytitle', get_bloginfo('template_directory').'/js/stickytitle.js', array('jquery'));
-	wp_enqueue_script('scripts', get_bloginfo('template_directory').'/js/scripts.js', array('jquery'));
-	wp_enqueue_script('footer', get_bloginfo('template_directory').'/js/footer.js', array('jquery'), '', true);
+	wp_enqueue_script('scrollTo', get_bloginfo('template_directory').'/js/jquery.scrollTo-1.4.2-min.js', array('jquery'), '1.4.2');
+	wp_enqueue_script('scripts', get_bloginfo('template_directory').'/js/scripts.js', array('jquery', 'scrollTo'));
+	//wp_enqueue_script('footer', get_bloginfo('template_directory').'/js/footer.js', array('jquery'), '', true);
 	wp_head();
 	?>
 </head>

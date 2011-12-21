@@ -6,13 +6,6 @@
 			$(this).addClass("active");
 			//return false;				
 	    });
-		$('.navigation a, .look_btn a').bind('click',function(event){
-	      var $anchor = $(this);
-	        $('html, body').stop().animate({
-	          scrollTop: $($anchor.attr('href')).offset().top
-	          }, 1000);
-	        event.preventDefault();
-	    });
 		$('#slides1, #slides2, #slides3, #slides4, #slides5').slides({
 			generateNextPrev: true,
 			generatePagination: true,
@@ -54,10 +47,10 @@
 			return false;
 		});
 		*/
-		/*$('.navigation a , .look_btn a').click(function () {
+		$('.navigation a , .look_btn a').click(function () {
 			$.scrollTo($(this).attr('href'), 800);
 			return false;
-		});*/
+		});
 		$('.pagination a, .prev, .next').click(function () {
 			var $parent_slide = $(this).parents('#slides2, #slides3, #slides4, #slides5');					
 			$.scrollTo($parent_slide, 200);

@@ -57,7 +57,7 @@
               -Cubre tus ojos, muestra tus labios <br>
               y tus uñas pintadas </div>
             <!--/paso dos-->
-            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el <b>producto<br>
+            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el <b class="azul">producto<br>
               LASPlash</b> que utilizaste <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
             <!--/paso tres-->
           </div>
@@ -67,9 +67,9 @@
         <div class="slide">
           <div class="content">
             <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
-              ya sea con una pose o con las dos ! <b>concurso@lasplashcosmetics.com.pa</b> </div>
+              ya sea con una pose o con las dos ! <b class="azul">concurso@lasplashcosmetics.com.pa</b> </div>
             <!--/paso cuatro-->
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash panama</b> en <b>facebook</b> para ver tu foto </div>
+            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b class="azul">LASPlash panama</b> en <b>facebook</b> para ver tu foto </div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
             <!--/paso seis-->
@@ -149,7 +149,7 @@
 			}else{
 				$img_src = $default_pic;
 			}
-			echo '<img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></span>';
+			echo '<a href=""><img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></a></span>';
 		}
 		?>
       </div>

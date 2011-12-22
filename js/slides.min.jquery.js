@@ -37,7 +37,7 @@ if(option.hoverPause&&option.play){control.bind('mouseover',function(){stop();})
 if(option.generateNextPrev){$('.'+option.container,elem).after('<a href="#" class="'+option.prev+'">Prev</a>');$('.'+option.prev,elem).after('<a href="#" class="'+option.next+'">Next</a>');}
 $('.'+option.next,elem).click(function(e){e.preventDefault();if(option.play){pause();}
 animate('next',effect);});$('.'+option.prev,elem).click(function(e){e.preventDefault();if(option.play){pause();}
-animate('prev',effect);});if(option.generatePagination){elem.append('<ul class='+option.paginationClass+'></ul>');control.children().each(function(){$('.'+option.paginationClass,elem).append('<li><a href="#'+number+'">'+(number+1)+'</a></li>');number++;});}else{$('.'+option.paginationClass+' li a',elem).each(function(){$(this).attr('href','#'+number);number++;});}
+animate('prev',effect);});if(option.generatePagination){elem.append('<ul class='+option.paginationClass+'></ul>');control.children().each(function(){$('.'+option.paginationClass,elem).append('<li><a href="#'+number+'"><span>'+(number+1)+'</span></a></li>');number++;});}else{$('.'+option.paginationClass+' li a',elem).each(function(){$(this).attr('href','#'+number);number++;});}
 $('.'+option.paginationClass+' li:eq('+start+')',elem).addClass('current');$('.'+option.paginationClass+' li a',elem).click(function(){if(option.play){pause();}
 clicked=$(this).attr('href').match('[^#/]+$');if(current!=clicked){animate('pagination',paginationEffect,clicked);}
 return false;});$('a.link',elem).click(function(){if(option.play){pause();}

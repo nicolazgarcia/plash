@@ -67,7 +67,7 @@ $(document).ready(function () {
 		return false;
 	});
 	$('.pagination a, .prev, .next').click(function () {
-		var $parent_slide = $(this).parents('#slides2, #slides3, #slides4, #slides5');					
+		var $parent_slide = $(this).parents('.cont');					
 		$.scrollTo($parent_slide, 200);
 		return false;
 	});
@@ -110,7 +110,7 @@ $(document).ready(function () {
               -Cubre tus ojos, muestra tus labios <br>
               y tus uñas pintadas </div>
             <!--/paso dos-->
-            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el <b>producto<br>
+            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el <b class="azul">producto<br>
               LASPlash</b> que utilizaste <img src="images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
             <!--/paso tres-->
           </div>
@@ -120,9 +120,9 @@ $(document).ready(function () {
         <div class="slide">
           <div class="content">
             <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
-              ya sea con una pose o con las dos ! <b>concurso@lasplashcosmetics.com.pa</b> </div>
+              ya sea con una pose o con las dos ! <b class="azul">concurso@lasplashcosmetics.com.pa</b> </div>
             <!--/paso cuatro-->
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b>LASPlash panama</b> en <b>facebook</b> para ver tu foto </div>
+            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <b class="azul">LASPlash panama</b> en <b>facebook</b> para ver tu foto </div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
             <!--/paso seis-->
@@ -181,7 +181,9 @@ $(document).ready(function () {
       </span> 
       <span class="concursante">
       sabrina guzman <span class="numero_likes">32</span>
+      <a href="">
       <img alt="sabrina guzman" src="images/avatar_votos.jpg">
+      </a>
       </span>
       </div>
       <!--/ultimas concursantes-->
@@ -727,13 +729,14 @@ $(document).ready(function () {
 					}
 				}
 			}
-			$('body').append('<div id="loading-bar" style="position:fixed; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height: 1px;"></div>');			
+			$('body').append('<div class="loader"> <img src="images/loader.gif"><div id="loading-bar"></div></div>');			
 			function handleLoadProgress() {
 				var progress = imageSeqLoader.getLoadProgress() * 100;
 				$('#loading-bar').css({width:progress+'%',opacity:1});
 			}
 			function handleLoadComplete() {
-				$('#loading-bar').css({width:'100%',opacity:0});
+				$('#loading-bar').css({width:'100%',opacity:0,});
+				$('.loader').fadeOut();
 			}
 			$win.resize( handleResize );
 			$win.scroll( handleScroll );

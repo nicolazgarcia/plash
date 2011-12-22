@@ -109,13 +109,14 @@
 				}
 			}
 		}
-		$('body').append('<div id="loading-bar" style="position:fixed; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height: 1px;"></div>');			
+		$('body').append('<div class="loader"><img src="images/loader.gif"><div id="loading-bar"></div></div>');			
 		function handleLoadProgress() {
 			var progress = imageSeqLoader.getLoadProgress() * 100;
 			$('#loading-bar').css({width:progress+'%',opacity:1});
 		}
 		function handleLoadComplete() {
-			$('#loading-bar').css({width:'100%',opacity:0});
+			$('#loading-bar').css({width:'100%',opacity:0,});
+			$('.loader').fadeOut();
 		}
 		$win.resize( handleResize );
 		$win.scroll( handleScroll );

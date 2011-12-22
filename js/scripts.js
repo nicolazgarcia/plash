@@ -26,7 +26,7 @@
 	     function () {
 	      $(this).stop().animate({opacity: 0}, 'slow');
 		 });
-            $("#slides2 a.natural").addClass("active");
+        $("#slides2 a.natural").addClass("active");
 	    $("#slides3 a.casual").addClass("active");
 	    $("#slides4 a.noche").addClass("active");
 	    $("#slides5 a.fantasia").addClass("active");		 
@@ -52,7 +52,7 @@
 			return false;
 		});
 		$('.pagination a, .prev, .next').click(function () {
-			var $parent_slide = $(this).parents('#slides2, #slides3, #slides4, #slides5');					
+			var $parent_slide = $(this).parents('.cont');					
 			$.scrollTo($parent_slide, 200);
 			return false;
 		});

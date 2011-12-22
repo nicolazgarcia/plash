@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
 	font: 12px/18px 'QuicksandLight', Arial, sans-serif;
-	color: #000;
-	background:#09F;
+	color: #fff;
+	background:#09C;
 }
 ::selection { background:rgba(0,0,0,0.8); color:#FFF;}
 ::-webkit-scrollbar {
@@ -123,8 +123,9 @@ body {
 #instrucciones .titulo h1 { background-position:84px 12px;}
 #instrucciones h3.reglas { width:199px; background:#EC297B; }
 #instrucciones .paso, #instrucciones .box  { float:left; display:block; line-height:12px;}
-#instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block; background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
+#instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block;  background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
 #instrucciones .paso b { color:#EC297B; font-family:'QuicksandBold', Arial, sans-serif;}
+#instrucciones .paso b.azul { color:#00D9FF;}
 #instrucciones .uno { width:160px; margin:63px 102px 36px;}
 #instrucciones .uno .icono { margin-left:-103px; margin-top:-47px;}
 #instrucciones .dos { width:213px; margin:0 74px 26px 107px; text-align:right;}
@@ -141,7 +142,7 @@ body {
 #instrucciones .seis .icono { margin-left:217px; margin-top:-45px; background-position:-196px -115px;}
 #instrucciones .box { width:352px; height:70px; margin:79px 0 0 16px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
-#instrucciones .box a.down_pdf:hover { background-position:-87px -330px;}
+#instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
 #instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
 #instrucciones .box .globo_premio b {font-family:'QuicksandBold', Arial, sans-serif; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
@@ -158,9 +159,13 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .pagination { float:left; width:auto; margin-top:10px; margin-left:236px;}
 .pagination li { width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
 .pagination li:last-child { width:40px;}
-.pagination li a {display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left;overflow:hidden; left:8px; position:relative;}
+.pagination li a {display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none;}
 .pagination li.current a {background-position:0 -158px;}
 .pagination li a:hover { background-position:0 -134px;}
+.pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
+.pagination li a:hover span, .pagination li.current a span {display:block;}
+.pagination li.current a:hover span {background:rgba(0,0,0,0.2); color:#00D9FF;}
+
 #slides1 .prev, #slides1 .next, #slides2 .prev, #slides2 .next,  #slides3 .prev, #slides3 .next,  #slides4 .prev, #slides4 .next,  #slides5 .prev, #slides5 .next { 
     width:18px;
 	height:0px;
@@ -170,7 +175,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 	background-position:0 -184px;    
 	overflow:hidden;
 	position:absolute;
-	bottom:-5px;
+	bottom:-4px;
 	left:222px;
 }
 #slides1 .next { left:294px; background-position:-29px -184px;}
@@ -259,6 +264,10 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .cont .look_box .look_btn  li a.casual.active { background-position:-340px -62px;}
 .cont .look_box .look_btn  li a.noche.active { background-position:-340px -124px;}
 .cont .look_box .look_btn  li a.fantasia.active { background-position:-340px -186px;}
+.cont .look_box .look_btn  li a.natural.active:hover { background-position:-510px 0;}
+.cont .look_box .look_btn  li a.casual.active:hover { background-position:-510px -62px;}
+.cont .look_box .look_btn  li a.noche.active:hover { background-position:-510px -124px;}
+.cont .look_box .look_btn  li a.fantasia.active:hover { background-position:-510px -186px;}
 
 .cont .producto{ width:325px; height:82px; margin-left:28px; margin-top:43px;}
 .cont .box_producto, .cont img, .cont .box_producto2 {float:left;}
@@ -268,3 +277,13 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .cont .producto2 {width:325px; height:122px; margin-left:28px; margin-top:10px;}
 .cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-family:'QuicksandBold', Arial, sans-serif;}
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:12px;}
+.loader { width:220px; height:45px; bottom:0; left:50%; position:fixed; margin:0px -110px; background:#FFF;text-aling:center;
+-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.loader img { margin:12px 84px;}
+#loading-bar { position:absolute; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}

@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	font: 12px/18px 'QuicksandLight', Arial, sans-serif;
 	color: #fff;
-	background:#09C;
+	background:#000;
 }
 ::selection { background:rgba(0,0,0,0.8); color:#FFF;}
 ::-webkit-scrollbar {
@@ -152,7 +152,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .store_locator { width:305px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px 39px;}
 /*--------------------------------*/
 #slides1 { margin-top:18px; position:absolute;}
-#slides2, #slides3, #slides4, #slides5 { margin-top:74px; position:absolute;}
+#slides2, #slides3, #slides4, #slides5 { padding-top:74px; position:absolute;}
 .slides_container {width:508px; height:434px; overflow:hidden; position:relative;}
 .slide { width:402px; height:430px; margin-left:85px; margin-top:7px;}
 .slide .content {float:left; width:402px !important;; height:430px; margin:0 !important; display:block;}

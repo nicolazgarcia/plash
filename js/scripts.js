@@ -56,9 +56,9 @@
 			$.scrollTo($parent_slide, 200);
 			return false;
 		});
-		$('iframe').each(function(){
-                  var url = $(this).attr("src")
-                 $(this).attr("src",url+"?wmode=transparent")
-               });
+		$('.video iframe').each(function(){
+           var url = $(this).attr("src")
+           $(this).attr("src",url+"?wmode=transparent")
+        });
 	});
 })(jQuery);

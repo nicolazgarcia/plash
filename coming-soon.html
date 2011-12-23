@@ -7,12 +7,15 @@
 <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 <style type="text/css">
 * { margin:0; padding:0;}
 body { background: url(images/bg/video-0001.jpg) no-repeat #000; color:#FFF; font: 12px/18px 'QuicksandLight', Arial, sans-serif;}
 ::selection { background:rgba(0,0,0,0.8); color:#FFF;}
+#bg { width:420px; height:545px; position:absolute; z-index:-100; top:0; left:0;}
 #portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(images/sprite_.png) 0 -293px;display:block;overflow:hidden;}
-#portada .logo { width:245px; height:210px; display:block; margin:54px 45px 70px;}
+#portada .logo { width:245px; height:210px; display:block; margin:54px 45px 60px;}
 #portada .frase { font-size:14px; text-align:justify; letter-spacing:2px;}
 #portada .frase p { padding:8px 0; margin-top:11px; border-top:1px solid #FFF; border-bottom:1px solid #FFF; line-height:16px;}
 .content { width:343px; margin-left:76px;}
@@ -43,8 +46,42 @@ from {-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);}
 to {-webkit-box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);}
 }
 </style>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('#bg').cycle({  
+        fx: 'fade', 
+		timeout:  1000,
+		//random:  1 
+    });	
+});
+</script>
 </head>
 <body>
+<div id="bg">
+		<img src="images/bg/video-0001.jpg" />
+		<img src="images/bg/video-0030.jpg" />
+		<img src="images/bg/video-0060.jpg" />
+		<img src="images/bg/video-0090.jpg" />
+		<img src="images/bg/video-0120.jpg" />
+        <img src="images/bg/video-0150.jpg" />
+		<img src="images/bg/video-0180.jpg" />
+		<img src="images/bg/video-0210.jpg" />
+		<img src="images/bg/video-0240.jpg" />
+		<img src="images/bg/video-0270.jpg" />
+        <img src="images/bg/video-0300.jpg" />
+		<img src="images/bg/video-0330.jpg" />
+		<img src="images/bg/video-0360.jpg" />
+		<img src="images/bg/video-0390.jpg" />
+		<img src="images/bg/video-0420.jpg" />
+        <img src="images/bg/video-0450.jpg" />
+		<img src="images/bg/video-0480.jpg" />
+		<img src="images/bg/video-0510.jpg" />
+        <img src="images/bg/video-0540.jpg" />
+		<img src="images/bg/video-0570.jpg" />
+		<img src="images/bg/video-0600.jpg" />
+		<img src="images/bg/video-0630.jpg" />
+		<img src="images/bg/video-0660.jpg" />
+</div>
 <div id="portada">
   <div class="soon">
   <div class="pestaña">coming soon</div>
@@ -56,7 +93,7 @@ to {-webkit-box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);}
    </span> 
    <span class="frase">
     <h1 class="titulo_lasplash">Un Concurso de LASPlash cosmetics</h1>
-    <p>“Te imaginas irte en un crucero por el caribe con tu mejor amiga? Conoce el concurso que tenemos para ti, participa y gana!”</p>
+    <p>“Te imaginas irte en un crucero por el caribe con tu mejor amiga? <b>dale click en me gusta</b> y conoce mas del concurso que tenemos para ti, participa y gana!”</p>
     </span>
    </div>
    <!--content-->

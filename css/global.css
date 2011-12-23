@@ -108,7 +108,7 @@ body {
 }
 #portada .content { display:block; padding-top:56px; margin-top:0;}
 #portada .logo { width:245px; height:210px; display:block; margin:36px 63px 67px;}
-#portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(../images/sprite_.png) 0 -293px;display:block;overflow:hidden;}	
+#portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(../images/sprite_.png) 0 -290px;display:block;overflow:hidden;}	
 #portada .frase { font-size:14px; text-align:justify; letter-spacing:2px;}
 #portada .frase p { padding:8px 0; margin-top:11px; border-top:1px solid #FFF; border-bottom:1px solid #FFF;}
 
@@ -117,7 +117,7 @@ body {
 	top: 0;
 }
 .fake_title{
-	width:100%; height:56px; margin-bottom:15px;
+	width:100%; height:56px; margin-bottom:10px;
 }
 /*--------------------------------*/
 #instrucciones .titulo h1 { background-position:84px 12px;}
@@ -125,7 +125,8 @@ body {
 #instrucciones .paso, #instrucciones .box  { float:left; display:block; line-height:12px;}
 #instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block;  background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
 #instrucciones .paso b { color:#EC297B; font-family:'QuicksandBold', Arial, sans-serif;}
-#instrucciones .paso b.azul { color:#00D9FF;}
+#instrucciones .paso a { color:#00D9FF; font-family:'QuicksandBold', Arial, sans-serif; text-decoration:none;}
+#instrucciones .paso a:hover { text-decoration:underline;}
 #instrucciones .uno { width:160px; margin:63px 102px 36px;}
 #instrucciones .uno .icono { margin-left:-103px; margin-top:-47px;}
 #instrucciones .dos { width:213px; margin:0 74px 26px 107px; text-align:right;}
@@ -151,8 +152,8 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .video img { margin-left:8px;}
 .store_locator { width:305px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px 39px;}
 /*--------------------------------*/
-#slides1 { margin-top:18px; position:absolute;}
-#slides2, #slides3, #slides4, #slides5 { padding-top:74px; position:absolute;}
+#slides1 { margin-top:0px; position:absolute;}
+#slides2, #slides3, #slides4, #slides5 { padding-top:64px; position:absolute;}
 .slides_container {width:508px; height:434px; overflow:hidden; position:relative;}
 .slide { width:402px; height:430px; margin-left:85px; margin-top:7px;}
 .slide .content {float:left; width:402px !important;; height:430px; margin:0 !important; display:block;}

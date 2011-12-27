@@ -29,7 +29,17 @@
         $("#slides2 a.natural").addClass("active");
 	    $("#slides3 a.casual").addClass("active");
 	    $("#slides4 a.noche").addClass("active");
-	    $("#slides5 a.fantasia").addClass("active");		 
+	    $("#slides5 a.fantasia").addClass("active");
+		$("ul.look_btn li a").each(function(){
+			var url = $(this).attr("href")
+           $(this).attr("href",url+"#0");			
+		});
+		/*
+		$("ul.look_btn li a").each(function(){
+		  var $ul_pagination = $(this).attr("href",url+"#0");
+           $(this).click($ul_pagination);			
+		});
+		*/
 		 /*
 		$(".look_cont img").hide();
 		$("ul.look_btn li:first-child a").addClass("active").show();
@@ -56,9 +66,11 @@
 			$.scrollTo($parent_slide, 200);
 			return false;
 		});
+		/*
 		$('.video iframe').each(function(){
            var url = $(this).attr("src")
            $(this).attr("src",url+"?wmode=transparent")
         });
+		*/
 	});
 })(jQuery);

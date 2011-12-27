@@ -149,7 +149,7 @@
 			}else{
 				$img_src = $default_pic;
 			}
-			echo '<a href=""><img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></a></span>';
+			echo '<a href="'.$girl['Url'].'"><img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></a></span>';
 		}
 		?>
       </div>

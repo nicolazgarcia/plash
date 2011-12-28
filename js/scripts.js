@@ -30,10 +30,6 @@
 	    $("#slides3 a.casual").addClass("active");
 	    $("#slides4 a.noche").addClass("active");
 	    $("#slides5 a.fantasia").addClass("active");
-		$("ul.look_btn li a").each(function(){
-			var url = $(this).attr("href")
-           $(this).attr("href",url+"#0");			
-		});
 		/*
 		$("ul.look_btn li a").each(function(){
 		  var $ul_pagination = $(this).attr("href",url+"#0");

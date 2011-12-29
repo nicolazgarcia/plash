@@ -287,5 +287,5 @@ border-top-left-radius: 8px;
 border-top-right-radius: 8px;
 z-index:100;
 }
-.loader img { margin:6px 60px;}
+.loader img { margin:6px 10px;}
 #loading-bar { position:absolute; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}

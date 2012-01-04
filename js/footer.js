@@ -109,7 +109,7 @@
 				}
 			}
 		}
-		$('body').append('<div class="loader"><img src="images/loader.gif"><div id="loading-bar"></div></div>');			
+		$('body').append('<div class="loader"><img src="$('body').attr('data-blogurl')+"/wp-content/themes/plash/images/loader.gif"><div id="loading-bar"></div></div>');			
 		function handleLoadProgress() {
 			var progress = imageSeqLoader.getLoadProgress() * 100;
 			$('#loading-bar').css({width:progress+'%',opacity:1});

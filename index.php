@@ -165,17 +165,36 @@
       <h1>Productos LASPlash</h1>
     </div>
     <div class="content">
+    <?php query_posts("page_id=153"); ?>
+	<?php while (have_posts()) : the_post(); ?>
       <h3 class="subt destacado">Porducto destacado</h3>
       <div class="box">
-        <h3>Nombre del producto</h3>
-        <p>Cupcake ipsum dolor sit amet carrot cake topping. Cotton candy pie ice cream chupa chups halvah liquorice. Faworki biscuit chocolate gummies carrot cake. Candy canes marshmallow ice cream sugar plum muffin tiramisu. Cookie jelly beans chocolate cake danish cake toffee bonbon topping sugar plum.</p>
-        <img src="<?php bloginfo( 'template_directory' ); ?>/images/productos/lasplash_delineador.png"> </div>
+        <h3><?php the_title(); ?></h3>
+        <?php the_content(); ?>
+        <?php
+        if( has_post_thumbnail() ){
+			the_post_thumbnail();
+		}
+		?>
+      </div>
+    <?php endwhile; ?>
+    <?php wp_reset_query(); ?>
     </div>
     <!--/content--> 
   </div>
   
   <?php $lookcounter = 1; ?>
-  <?php query_posts("post_type=page&posts_per_page=-1&orderby=menu_order&order=ASC&post_parent=0"); ?>
+  <?php
+  $args = array(
+  	'post_type' => 'page',
+  	'page&posts_per_page' => -1,
+  	'orderby' => 'menu_order',
+  	'order' => 'ASC',
+  	'post_parent' => 0,
+  	'post__not_in' => array(153)
+  );
+  query_posts($args);
+  ?>
   <?php while (have_posts()) : the_post(); ?>
   <?php $lookcounter++; ?>
   <div class="cont">

@@ -92,7 +92,7 @@ body {
 /*#portada, #instrucciones, #instrucciones_p2, #avances, #recursos,*/ 
 .cont { height:545px;}
 #main .content { width:391px; margin-left:85px; margin-top:18px;}
-#main .titulo { width:100%; height:56px; line-height:56px; display:block; margin-bottom:15px; text-align:center;
+#main .titulo { width:100%; height:48px; line-height:48px; display:block; margin-bottom:15px; text-align:center;
   background: -webkit-gradient(linear,left top,right top,color-stop(0, rgb(0,0,0)),color-stop(0.87, rgba(0,0,0, 0.3)));
   background: -webkit-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3));
   background: -moz-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3));  
@@ -100,7 +100,7 @@ body {
   background: -o-linear-gradient(left, rgb(0,0,0) 87%, rgba(0,0,0,0.3));
   position: relative; z-index: 99;
 }
-#main .titulo h1 { height:56px; line-height:56px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
+#main .titulo h1 { height:48px; line-height:48px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
 #main h3.subt { height:27px; font-family: 'Abel', sans-serif; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
    -webkit-border-radius:25px;
    -moz-border-radius:25px;
@@ -153,11 +153,11 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .store_locator { width:305px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px 39px;}
 /*--------------------------------*/
 #slides1 { margin-top:0px; position:absolute;}
-#slides2, #slides3, #slides4, #slides5 { padding-top:64px; position:absolute;}
-.slides_container {width:508px; height:434px; overflow:hidden; position:relative;}
-.slide { width:402px; height:430px; margin-left:85px; margin-top:7px;}
-.slide .content {float:left; width:402px !important;; height:430px; margin:0 !important; display:block;}
-.pagination { float:left; width:auto; margin-top:10px; margin-left:236px;}
+#slides2, #slides3, #slides4, #slides5 { padding-top:50px; position:absolute;}
+.slides_container {width:508px; height:496px; overflow:hidden; position:relative;}
+.slide { width:402px; height:491px; margin-left:85px; margin-top:7px;}
+.slide .content {float:left; width:402px !important; height:496px; margin:0 !important; display:block;}
+.pagination { float:left; width:auto; margin-top:-40px; margin-left:236px;}
 .pagination li { width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
 .pagination li:last-child { width:40px;}
 .pagination li a {display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none;}
@@ -176,7 +176,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 	background-position:0 -184px;    
 	overflow:hidden;
 	position:absolute;
-	bottom:-4px;
+	bottom:15px;
 	left:222px;
 }
 #slides1 .next { left:294px; background-position:-29px -184px;}
@@ -243,12 +243,12 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 #recursos .box img { margin-left:45px; margin-top:-60px;}
 
 .cont  h3.producto { width:195px; background:#00D9FF; margin-left:194px;}
-.cont  h3.look { width:155px; background:#EC297B;}
-.cont .look_box { margin-top:44px;}
-.cont .look_box .look_cont {width:196px; height:272px; overflow:hidden; float:left; position:relative; margin-left:34px;}
-.cont .look_box .look_cont img { width:196px; height:272px; display:block;}
+.cont  h3.look { width:155px; background:#EC297B; margin-top:33px;}
+.cont .look_box { margin-top:51px;}
+.cont .look_box .look_cont {width:342px; height:496px; overflow:hidden; position:absolute; margin:-119px 0 0 98px; z-index:-5;}
+.cont .look_box .look_cont img { width:342px; height:496px; display:block;}
 .cont .look_box .look_btn {width:161px; height:246px; float:left;}
-.cont .look_box ul.look_btn { margin-top:35px;}
+
 .cont .look_box .look_btn li { margin-bottom:6px;list-style:none;}
 .cont .look_box .look_btn  li a { width:161px; height:0px; padding-top:55px; display:block; background: url(../images/sprite_look.png) no-repeat; overflow:hidden;  text-align:center; text-decoration:none; color:#FFF; position:relative;}
 .cont .look_box .look_btn  li a span {display:block;position:absolute;top:0;left:0;height:100%;width:100%;z-index:100;background: url(../images/sprite_look.png) no-repeat;

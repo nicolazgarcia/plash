@@ -214,7 +214,7 @@
                     <li><a class="fantasia" href="#slides5">look fantasia<span></span></a></li>
 				</ul>
                 <div class="look_cont">
-                    <img alt="look natural">
+                    <?php the_post_thumbnail(); ?>
                 </div>    
             </div>
             <!--/look-->

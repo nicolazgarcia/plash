@@ -274,10 +274,10 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .cont .box_producto, .cont img, .cont .box_producto2 {float:left;}
 .cont .box_producto, .cont .box_producto { width:202px; height:66px; margin-top:6px; margin-left:7px;}
 .cont .producto .box_producto { margin-right:11px;}
-.cont .producto2 .box_producto { margin-top:0px; text-align:right;}/*margin-top:52px; text-align:right;*/
+.cont .producto2 .box_producto { margin-top:20px; text-align:right;}/*margin-top:52px; text-align:right;*/
 .cont .producto2 {width:400px; height:122px; margin-left:0px; margin-top:10px;}/*width:325px; height:122px; margin-left:28px; margin-top:10px;*/
 .cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-family:'QuicksandBold', Arial, sans-serif;}
-.cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:12px;}
+.cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}/*width:193px; height:44px; display:block; margin-left:5px; line-height:12px;*/
 .loader {width:180px; height:36px; bottom:0; left:50%; position:fixed; margin:0px -90px; background:#FFF; text-aling:center;
 -webkit-border-top-left-radius: 8px;
 -webkit-border-top-right-radius: 8px;

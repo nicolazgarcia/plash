@@ -180,7 +180,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 	bottom:15px;
 	left:208px;
 }
-#slides1 .next { left:308px; background-position:-29px -184px;}
+#slides1 .next { left:306px; background-position:-29px -184px;}
 #slides2 .next, #slides3 .next, #slides4 .next, #slides5 .next { left:347px;background-position:-29px -184px;}
 #slides1 .prev:hover, #slides2 .prev:hover, #slides3 .prev:hover, #slides4 .prev:hover, #slides5 .prev:hover   { background-position:0 -220px;}
 #slides1 .next:hover, #slides2 .next:hover, #slides3 .next:hover, #slides4 .next:hover, #slides5 .next:hover { background-position:-29px -220px;}

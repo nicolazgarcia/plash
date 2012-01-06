@@ -121,7 +121,7 @@ body {
 }
 /*--------------------------------*/
 #instrucciones .titulo h1 { background-position:84px 12px;}
-#instrucciones h3.reglas { width:199px; background:#EC297B; }
+#instrucciones h3.reglas { width:199px; background:#00D9FF; }
 #instrucciones .paso, #instrucciones .box  { float:left; display:block; line-height:16px;}
 #instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block;  background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
 #instrucciones .paso b { color:#EC297B; font-family:'QuicksandBold', Arial, sans-serif;}
@@ -144,10 +144,10 @@ body {
 #instrucciones .box { width:352px; height:70px; margin:79px 0 0 16px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
-#instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
+#instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
 #instrucciones .box .globo_premio b {font-family:'QuicksandBold', Arial, sans-serif; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
-h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
+h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .video{ width:358px; height:228px;}
 .video img { margin-left:8px;}
 .store_locator { width:305px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px 39px;}
@@ -187,7 +187,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 /*--------------------------------*/
 #avances .titulo h1 {background-position:84px -42px;}
 #avances .box { height:222px; display:block;}
-#avances .globo_mas_votada{ text-align:center; width:152px; float:left; display:block; font-size:23px; line-height:20px; background:rgba(0, 217, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:16px 3px;}
+#avances .globo_mas_votada{ text-align:center; width:152px; float:left; display:block; font-size:23px; line-height:20px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:16px 3px;}
 #avances .globo_mas_votada .guia {width:48px; height:40px; display:block; background-image:url(../images/f_globomasvotada.png); position:absolute; margin-top:16px; margin-left:106px;}
 #avances .globo_mas_votada b { text-transform:uppercase; font-family:'QuicksandBold', Arial, sans-serif; letter-spacing:-3px;}
 #avances .avatar { width:205px; height:205px; background:#FFF;
@@ -213,7 +213,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .right { background-position:0 -475px; position:absolute; top:0; width:9px; right:-9px;}
 #avances .likes {position: relative; top:-67px; left:108px; font-family: 'Anton', sans-serif; font-size:20px; line-height:29px; background-position:0 -443px; padding-left:4px;}
 #avances h3.total_c { width:224px; background:#FBB03B;}
-#avances h3.ultimas_c { width:209px; background:#8CC63F; margin-left:182px;}
+#avances h3.ultimas_c { width:209px; background:#FF00FF; margin-left:182px;}
 #avances .total_concursantes { width:391px; height:53px; margin-top:10px; font-family: 'Anton', sans-serif; font-size:32px; line-height:32px; font-weight:lighter;}
 #avances .total_concursantes span { padding:6px 14px; border:2px solid #FFF; margin-left:3px; float:left; display:block;
    -webkit-border-radius:10px;
@@ -235,7 +235,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 }
 /*--------------------------------*/
 #recursos .titulo h1 {background-position:84px -90px;}
-#recursos h3.destacado {width:195px; background:#00D9FF;}
+#recursos h3.destacado {width:195px; background:#B23BF7;}
 #recursos .box { margin-top:35px;}
 #recursos .box h3 { margin-bottom:22px;}
 #recursos .box p, #recursos .box img { float:left;}
@@ -243,7 +243,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 #recursos .box img { margin-left:45px; margin-top:-60px;}
 
 .cont  h3.producto { width:195px; background:#00D9FF; margin-left:194px;}
-.cont  h3.look { width:155px; background:#EC297B; margin-top:33px;}
+.cont  h3.look { width:155px; background:#29B473; margin-top:33px;}
 .cont .look_box { margin-top:51px;}
 .cont .look_box .look_cont {width:342px; height:496px; overflow:hidden; position:absolute; margin:-119px 0 0 98px; z-index:-5;}
 .cont .look_box .look_cont img { width:342px; height:496px; display:block;}

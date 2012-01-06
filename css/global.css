@@ -129,7 +129,7 @@ body {
 #instrucciones .paso a:hover, .box_producto a:hover { text-decoration:underline;}
 #instrucciones .uno { width:160px; margin:90px 102px 36px;}
 #instrucciones .uno .icono { margin-left:-103px; margin-top:-47px;}
-#instrucciones .dos { width:213px; margin:80px 74px 26px 107px; text-align:right;}
+#instrucciones .dos { width:213px; margin:80px 74px 26px 77px; text-align:right;}
 #instrucciones .dos .icono { margin-left:218px; margin-top:-28px; background-position:-98px 0;}
 #instrucciones .tres { width:233px; margin:40px 100px; }
 #instrucciones .tres .icono { margin-left:-100px; background-position:-196px 0;}

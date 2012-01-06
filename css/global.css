@@ -270,7 +270,7 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .cont .look_box .look_btn  li a.noche.active:hover { background-position:-510px -124px;}
 .cont .look_box .look_btn  li a.fantasia.active:hover { background-position:-510px -186px;}
 
-.cont .producto{ width:325px; height:82px; margin-left:28px; margin-top:43px;}
+.cont .producto{ width:400px; height:82px; margin-left:0px; margin-top:43px;}/*width:325px; height:82px; margin-left:28px; margin-top:43px;*/
 .cont .box_producto, .cont img, .cont .box_producto2 {float:left;}
 .cont .box_producto, .cont .box_producto { width:202px; height:66px; margin-top:6px; margin-left:7px;}
 .cont .producto .box_producto { margin-right:11px;}

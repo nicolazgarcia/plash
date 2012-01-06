@@ -127,21 +127,21 @@ body {
 #instrucciones .paso b { color:#EC297B; font-family:'QuicksandBold', Arial, sans-serif;}
 #instrucciones .paso a, .box_producto a { color:#00D9FF; font-family:'QuicksandBold', Arial, sans-serif; text-decoration:none;}
 #instrucciones .paso a:hover, .box_producto a:hover { text-decoration:underline;}
-#instrucciones .uno { width:160px; margin:63px 102px 36px;}
+#instrucciones .uno { width:160px; margin:90px 102px 36px;}
 #instrucciones .uno .icono { margin-left:-103px; margin-top:-47px;}
-#instrucciones .dos { width:213px; margin:0 74px 26px 107px; text-align:right;}
+#instrucciones .dos { width:213px; margin:80px 74px 26px 107px; text-align:right;}
 #instrucciones .dos .icono { margin-left:218px; margin-top:-28px; background-position:-98px 0;}
-#instrucciones .tres { width:233px; margin-left:100px; }
+#instrucciones .tres { width:233px; margin:40px 100px; }
 #instrucciones .tres .icono { margin-left:-100px; background-position:-196px 0;}
 #instrucciones .tres .linea { width:60px; height:59px; display:block; background:url(../images/linea_.png) no-repeat; position:absolute; margin-left:-46px; margin-top:110px; }
-#instrucciones .tres img { margin-top:4px;}
+#instrucciones .tres img { margin-top:16px;}
 #instrucciones .cuatro { margin:54px 122px 48px 65px; width:213px; text-align:right;}
 #instrucciones .cuatro .icono { margin-left:224px; margin-top:-42px; background-position:0 -115px;}
-#instrucciones .cinco { width:161px; margin:0 126px 62px 111px; }
+#instrucciones .cinco { width:161px; margin:38px 126px 62px 111px; }
 #instrucciones .cinco .icono { margin-left:-106px; margin-top:-45px; background-position:-98px -115px;}
-#instrucciones .seis { width:205px; margin:0 139px 0px 56px; }
+#instrucciones .seis { width:205px; margin:30px 139px 0px 56px; }
 #instrucciones .seis .icono { margin-left:217px; margin-top:-45px; background-position:-196px -115px;}
-#instrucciones .box { width:352px; height:70px; margin:79px 0 0 16px;}
+#instrucciones .box { width:352px; height:70px; margin:100px 0 0 16px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
 #instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
@@ -157,16 +157,17 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .slides_container {width:508px; height:496px; overflow:hidden; position:relative;}
 .slide { width:402px; height:491px; margin-left:85px; margin-top:7px;}
 .slide .content {float:left; width:402px !important; height:496px; margin:0 !important; display:block;}
-.pagination { z-index:95;float:left; width:auto; margin-top:-40px; margin-left:222px;}
+#slides1 .pagination { margin-left:222px;}
+.pagination { z-index:95;float:left; width:auto; margin-top:-40px; margin-left:236px;}
 .pagination li { z-index:95;width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
 .pagination li:last-child { width:40px;}
-.pagination li a {z-index:95;display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none;}
+.pagination li a {z-index:95;display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none; overflow:hidden;}
 .pagination li.current a {background-position:0 -158px;}
 .pagination li a:hover { background-position:0 -134px;}
-.pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
+/*.pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
 .pagination li a:hover span, .pagination li.current a span {display:block;}
 .pagination li.current a:hover span {background:rgba(0,0,0,0.2); color:#00D9FF;}
-
+*/
 #slides1 .prev, #slides1 .next, #slides2 .prev, #slides2 .next,  #slides3 .prev, #slides3 .next,  #slides4 .prev, #slides4 .next,  #slides5 .prev, #slides5 .next { 
     width:18px;
 	height:0px;

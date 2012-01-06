@@ -27,7 +27,7 @@
       <li><a class="home" href="#portada">Inicio <span>home</span></a></li>
       <li><a class="intrucciones" href="#instrucciones">1 <span>Instrucciones</span></a></li>
       <li><a class="avances" href="#avances">2 <span>Avances</span></a></li>
-      <li><a class="recursos" href="#recursos">3 <span>recursos</span></a></li>
+      <li><a class="recursos" href="#recursos">3 <span>Recursos</span></a></li>
     </ul>
   </div>
   <div id="portada" class="cont"> <a name="portada"></a>
@@ -57,28 +57,20 @@
               -Cubre tus ojos, muestra tus labios <br>
               y tus uñas pintadas </div>
             <!--/paso dos-->
-            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el 
-            <a href="">producto<br>LASPlash</a> que utilizaste <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
-            <!--/paso tres-->
           </div>
           <!--/content-->
         </div>
         <!--/slide-->
+        
+        
         <div class="slide">
           <div class="content">
+            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el 
+              <a href="">producto<br>LASPlash</a> que utilizaste <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
+            <!--/paso tres-->
             <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
               ya sea con una pose o con las dos ! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
             <!--/paso cuatro-->
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASPlash panama</a> en <b>facebook</b> para ver tu foto </div>
-            <!-- /paso cinco-->
-            <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
-            <!--/paso seis-->
-            <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Y podras ganarte <br>
-                <b>UN CRUCERO PARA <br>
-                DOS PERSONAS!!</b></span></div>
-            </div>
-            <!--/box-->
           </div>
           <!--/content-->
         </div>
@@ -87,9 +79,6 @@
         
         <div class="slide">
           <div class="content">
-            <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
-              ya sea con una pose o con las dos ! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
-            <!--/paso cuatro-->
             <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASPlash panama</a> en <b>facebook</b> para ver tu foto </div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>

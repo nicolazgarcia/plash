@@ -157,10 +157,10 @@ h3.tips{ width:175px; background:#29B473; margin:84px 35px 22px 181px; }
 .slides_container {width:508px; height:496px; overflow:hidden; position:relative;}
 .slide { width:402px; height:491px; margin-left:85px; margin-top:7px;}
 .slide .content {float:left; width:402px !important; height:496px; margin:0 !important; display:block;}
-.pagination { float:left; width:auto; margin-top:-40px; margin-left:236px;}
-.pagination li { width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
+.pagination { z-index:1000;float:left; width:auto; margin-top:-40px; margin-left:236px;}
+.pagination li { z-index:1000;width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
 .pagination li:last-child { width:40px;}
-.pagination li a {display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none;}
+.pagination li a {z-index:1000;display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none;}
 .pagination li.current a {background-position:0 -158px;}
 .pagination li a:hover { background-position:0 -134px;}
 .pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}

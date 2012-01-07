@@ -7,7 +7,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
 	font: 18px/27px 'QuicksandBold', Arial, sans-serif;
 }
-#mask { width:520px; height:545px; overflow-x:hidden;}
 #main {
 	height:5000px;
 }

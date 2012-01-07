@@ -20,6 +20,7 @@
 	?>
 </head>
 <body <?php body_class(); ?> data-blogurl="<?php echo get_bloginfo('wpurl');?>">
+<div id="mask">
 <div id="main">
 <div class="video_lasplash" style="z-index:-999;"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bg/video-0001.jpg"></div>
    <div class="navigation">
@@ -287,6 +288,7 @@
   <!--/cont-->
   <?php endwhile; ?>
   <?php wp_reset_query(); ?>
+</div>
 </div>
 <?php
 	wp_footer();

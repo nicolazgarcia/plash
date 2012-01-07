@@ -3,7 +3,7 @@ add_theme_support('post-thumbnails');
 add_image_size('leader-thumb', 189, 189, true);
 add_image_size('latest-thumb', 75, 75, true);
 add_image_size('look-thumb', 272, 196, true);
-add_image_size('product-thumb', 88, 121);
+add_image_size('product-thumb', 160, 160);
 
 /*
  * jQuery desde Google

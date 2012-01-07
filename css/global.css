@@ -10,12 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 #main {
 	height:5000px;
 }
-#mask { width:520px; height:545px; overflow-x:hidden;}
 body {
 	font: 12px/18px 'QuicksandLight', Arial, sans-serif;
 	color: #fff;
 	background:#000;
-	overflow:hidden;
 }
 ::selection { background:rgba(0,0,0,0.8); color:#FFF;}
 ::-webkit-scrollbar {
@@ -160,7 +158,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .slide { width:402px; height:491px; margin-left:85px; margin-top:7px;}
 .slide .content {float:left; width:402px !important; height:496px; margin:0 !important; display:block;}
 #slides1 .pagination { margin-left:222px;}
-.pagination { z-index:95;float:left; width:auto; margin-top:-40px; margin-left:236px;}
+.pagination { z-index:95;float:left; width:auto; margin-top:-40px; margin-left:224px;}
 .pagination li { z-index:95;width:20px; height:21px; float:left; list-style:none; background-image:url(../images/sprite_.png); background-position:0 -260px; margin-right:5px;}
 .pagination li:last-child { width:40px;}
 .pagination li a {z-index:95;display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none; overflow:hidden;}
@@ -183,10 +181,10 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 	left:206px;
 }
 #slides1 .next { left:308px; background-position:-29px -184px;}
-#slides2 .next, #slides3 .next, #slides4 .next, #slides5 .next { left:347px;background-position:-29px -184px;}
+#slides2 .next, #slides3 .next, #slides4 .next, #slides5 .next { left:359px;background-position:-29px -184px;}
 #slides1 .prev:hover, #slides2 .prev:hover, #slides3 .prev:hover, #slides4 .prev:hover, #slides5 .prev:hover   { background-position:0 -220px;}
 #slides1 .next:hover, #slides2 .next:hover, #slides3 .next:hover, #slides4 .next:hover, #slides5 .next:hover { background-position:-29px -220px;}
-#slides2 .prev, #slides3 .prev, #slides4 .prev, #slides5 .prev{ left:220px;}
+#slides2 .prev, #slides3 .prev, #slides4 .prev, #slides5 .prev{ left:208px;}
 /*--------------------------------*/
 #avances .titulo h1 {background-position:84px -44px;}
 #avances .box { height:222px; display:block;}

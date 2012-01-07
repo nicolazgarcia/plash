@@ -110,14 +110,13 @@
 			}
 		}
 		var blogurl = $('body').attr('data-blogurl');
-		$('body').append('<div class="loader"><img src="'+blogurl+'/wp-content/themes/plash/images/loader.gif"><div id="loading-bar"></div></div>');			
+		$('body').append('<div id="loading-bar"></div>');			
 		function handleLoadProgress() {
 			var progress = imageSeqLoader.getLoadProgress() * 100;
 			$('#loading-bar').css({width:progress+'%',opacity:1});
 		}
 		function handleLoadComplete() {
 			$('#loading-bar').css({width:'100%',opacity:0,});
-			$('.loader').fadeOut();
 		}
 		$win.resize( handleResize );
 		$win.scroll( handleScroll );

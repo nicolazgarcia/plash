@@ -279,14 +279,4 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .cont .producto2 {width:400px; height:122px; margin-left:0px; margin-top:10px;}
 .cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-family:'QuicksandBold', Arial, sans-serif;}
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
-.loader {width:180px; height:36px; bottom:0; left:50%; position:fixed; margin:0px -90px; background:#FFF; text-aling:center;
--webkit-border-top-left-radius: 8px;
--webkit-border-top-right-radius: 8px;
--moz-border-radius-topleft: 8px;
--moz-border-radius-topright: 8px;
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
-z-index:100;
-}
-.loader img { margin:6px 10px;}
 #loading-bar { position:absolute; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}

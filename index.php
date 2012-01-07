@@ -228,7 +228,7 @@
             <h3 class="subt producto">Productos</h3>
         <?php
         $counter = 0;
-		$products = get_posts("post_type=page&posts_per_page=6&orderby=menu_order&order=ASC&post_parent=".$post->ID);
+		$products = get_posts("post_type=page&posts_per_page=8&orderby=menu_order&order=ASC&post_parent=".$post->ID);
 		foreach( $products as $page ):
 			if ($counter && ($counter % 2 == 0) ){
 				echo '</div></div><div class="slide"><div class="content"><h3 class="subt producto">Productos</h3>';

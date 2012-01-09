@@ -19,7 +19,7 @@
 	wp_head();
 	?>
     <?php
-     if(strpos($_SERVER['HTTP_USER_AGENT'],'iPad')){
+     $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad') {
         header('http://lasfb.keyspot.com.pa/wp-content/themes/plash/ipad.html');
      }
      ?>

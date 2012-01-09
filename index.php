@@ -19,9 +19,16 @@
 	wp_head();
 	?>
     <?php
-     $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad') {
+     strpos($_SERVER['HTTP_USER_AGENT'],'iPad')){
         header('http://lasfb.keyspot.com.pa/wp-content/themes/plash/ipad.html');
      }
+	 /*
+	 parte errada la dejo comentada para revisar errores
+	 
+	 $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad') {
+        header('http://lasfb.keyspot.com.pa/wp-content/themes/plash/ipad.html');
+     }
+	 */
      ?>
 </head>
 <body <?php body_class(); ?> data-blogurl="<?php echo get_bloginfo('wpurl');?>">

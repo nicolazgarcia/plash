@@ -70,7 +70,7 @@ span.logo {
 .instrucciones .tres img { margin:6px 15px 0;}
 .instrucciones .cuatro { margin:0px 0px 102px 155px; width:221px; text-align:right;}
 .instrucciones .cuatro .icono { margin:-45px 234px; background-position:0 -116px;}
-.instrucciones .cinco { width:162px; margin:0px 0px 103px 217px; }
+.instrucciones .cinco { width:162px; margin:0px 0px 103px 217px; text-align:right; }
 .instrucciones .cinco .icono { margin:-50px 173px; background-position:-98px -115px;}
 .instrucciones .seis { width:202px; margin:0px 0px 0px 178px; }
 .instrucciones .seis .icono { margin:-45px 211px; background-position:-196px -116px;}

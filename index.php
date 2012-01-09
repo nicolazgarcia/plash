@@ -20,7 +20,7 @@
 	?>
     <?php
     if(strstr($_SERVER['HTTP_USER_AGENT'],’iPad’)){
-       header(‘Location: http://lasfb.keyspot.com.pa/wp-content/themes/plash/ipad.html’);
+       header("Location: http://lasfb.keyspot.com.pa/wp-content/themes/plash/ipad.html");
     }
     ?>
 </head>

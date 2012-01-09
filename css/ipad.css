@@ -25,7 +25,7 @@ span.logo {
 .frase h1.titulo_lasplash {
 	width:246px;
 	height:0;
-	padding-top:25px;
+	padding-top:27px;
 	font-size:18px;
 	display:block;
 	background:url(../images/sprite_ipad.png) 0 0px;
@@ -60,20 +60,20 @@ span.logo {
 .instrucciones .paso a { color:#00D9FF; font-weight:bold; font-variant:normal; font-style:normal; text-decoration:none;}
 .instrucciones .paso a:hover { text-decoration:underline;}
 .instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block;  background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
-.instrucciones .uno { width:210px; margin:90px 102px 36px 182px;}
-.instrucciones .uno .icono { margin-left:-145px; margin-top:-68px;}
-.instrucciones .dos { width:278px; margin:80px 0px 85px 164px;}
+.instrucciones .uno { width:210px; margin:90px 102px 100px 164px;}
+.instrucciones .uno .icono { margin-left:-124px; margin-top:-50px;}
+.instrucciones .dos { width:278px; margin:0px 0px 85px 164px;}
 .instrucciones .dos .icono { margin-left:-124px; margin-top:-42px; background-position:-98px 0;}
-.instrucciones .tres { width:269px; margin:40px 0px 52px 162px; }
-.instrucciones .tres .icono { margin:-44px -115px; background-position:-196px 0;}
+.instrucciones .tres { width:269px; margin:40px 0px 52px 164px; }
+.instrucciones .tres .icono { margin:-38px -124px; background-position:-196px 0;}
 .instrucciones .tres .linea { width:60px; height:59px; display:block; background:url(../images/linea_.png) no-repeat; position:absolute; margin-left:-46px; margin-top:62px; }
 .instrucciones .tres img { margin:6px 15px 0;}
-.instrucciones .cuatro { margin:0px 0px 102px 165px; width:211px; text-align:right;}
-.instrucciones .cuatro .icono { margin:-61px 224px; background-position:0 -115px;}
-.instrucciones .cinco { width:162px; margin:0px 0px 93px 217px; }
-.instrucciones .cinco .icono { margin:-61px 173px; background-position:-98px -115px;}
+.instrucciones .cuatro { margin:0px 0px 102px 155px; width:221px; text-align:right;}
+.instrucciones .cuatro .icono { margin:-45px 234px; background-position:0 -116px;}
+.instrucciones .cinco { width:162px; margin:0px 0px 103px 217px; }
+.instrucciones .cinco .icono { margin:-50px 173px; background-position:-98px -115px;}
 .instrucciones .seis { width:202px; margin:0px 0px 0px 178px; }
-.instrucciones .seis .icono { margin:-40px 211px; background-position:-196px -115px;}
+.instrucciones .seis .icono { margin:-45px 211px; background-position:-196px -116px;}
 .instrucciones a.down_pdf {
 	width:67px;
 	height:70px;
@@ -81,13 +81,13 @@ span.logo {
 	background:url(../images/sprite_ipad.png) 0 -38px;
 	background-repeat:no-repeat;
 	position:absolute;
-	margin:-52px 50px;
+	margin:-57px 70px;
 	padding-right:20px;
 	text-indent:-9999px;
 	border-right:1px dashed #FFF;
 }
 .instrucciones a.down_pdf:active {
-	background-position:-88px -38px;
+	background-position:-140px -38px;
 }
 .store_locator {
 	width:348px;

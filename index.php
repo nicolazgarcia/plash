@@ -181,7 +181,7 @@
     <div class="content">
     <?php query_posts("page_id=153"); ?>
 	<?php while (have_posts()) : the_post(); ?>
-      <h3 class="subt destacado">Porducto destacado</h3>
+      <h3 class="subt destacado">Producto destacado</h3>
       <div class="box">
         <h3><?php the_title(); ?></h3>
         <?php the_content(); ?>

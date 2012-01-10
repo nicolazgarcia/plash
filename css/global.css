@@ -75,7 +75,7 @@ body {
 	background-repeat:no-repeat;
 	text-indent:-9999px;
 	}
-.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; font-family: 'Abel', sans-serif; font-weight:normal; margin-top:4px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
+.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; margin-top:4px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
 .navigation a:hover > span, .navigation a.active:hover > span{ display:block;}
 .navigation ul li a.home {background-position:0 0;}
 .navigation ul li a.intrucciones {background-position:-43px 0;}
@@ -104,7 +104,7 @@ body {
   position: relative; z-index: 99;
 }
 #main .titulo h1 { height:48px; line-height:48px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
-#main h3.subt { height:27px; font-family: 'Abel', sans-serif; font-weight:normal; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
+#main h3.subt { height:27px; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
    -webkit-border-radius:25px;
    -moz-border-radius:25px;
    border-radius:25px;
@@ -225,7 +225,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
    border-radius:10px;
 }
 #avances .ultimas_concursantes { margin-top:10px; float:right;}
-#avances .ultimas_concursantes .concursante { font-family: 'Abel', sans-serif; font-weight:normal; font-size:12px; width:65px; height:61px; padding:12px 10px; display:block; border: 1px dashed #FFF; text-align:center; text-transform:uppercase; line-height:14px; float:left; margin-left:8px; position:relative;
+#avances .ultimas_concursantes .concursante {font-size:12px; width:65px; height:61px; padding:12px 10px; display:block; border: 1px dashed #FFF; text-align:center; text-transform:uppercase; line-height:14px; float:left; margin-left:8px; position:relative;
    -webkit-border-radius:75px;
    -moz-border-radius:75px;
    border-radius:75px;

@@ -104,7 +104,7 @@ body {
   position: relative; z-index: 99;
 }
 #main .titulo h1 { height:48px; line-height:48px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
-#main h3.subt { height:27px; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
+#main h3.subt { font-family: 'Abel', sans-serif; font-weight:800; height:27px; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
    -webkit-border-radius:25px;
    -moz-border-radius:25px;
    border-radius:25px;

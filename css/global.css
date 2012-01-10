@@ -215,10 +215,10 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .likes, .left, .right { background-image:url(../images/sprite_.png); height:29px; display:inline-block;}
 .left { background-position:0 -410px; position:absolute; top:0; width:35px; left:-35px;}
 .right { background-position:0 -475px; position:absolute; top:0; width:9px; right:-9px;}
-#avances .likes {position: relative; top:-67px; left:108px; font-family: 'Anton', sans-serif; font-size:20px; line-height:29px; background-position:0 -443px; padding-left:4px;}
+#avances .likes {position: relative; top:-67px; left:108px; font-family: 'Anton', sans-serif; font-weight:normal; font-size:20px; line-height:29px; background-position:0 -443px; padding-left:4px;}
 #avances h3.total_c { width:224px; background:#FBB03B;}
 #avances h3.ultimas_c { width:209px; background:#FF00FF; margin-left:182px;}
-#avances .total_concursantes { width:391px; height:53px; margin-top:10px; font-family: 'Anton', sans-serif; font-size:32px; line-height:32px; font-weight:lighter;}
+#avances .total_concursantes { width:391px; height:53px; margin-top:10px; font-family: 'Anton', sans-serif; font-weight:normal; font-size:32px; line-height:32px; font-weight:lighter;}
 #avances .total_concursantes span { padding:6px 14px; border:2px solid #FFF; margin-left:3px; float:left; display:block;
    -webkit-border-radius:10px;
    -moz-border-radius:10px;
@@ -232,7 +232,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 }
 #avances .numero_likes { width:49px; text-align:center; margin:0 auto; display:block; border-top:1px solid #fff; margin-top:4px; line-height:25px; text-transform:lowercase;}
 #avances .numero_likes:after{ content:" likes";}
-#avances .ultimas_concursantes .concursante img {width:75px; height:75px; position:absolute; top:6px; left:5px;
+#avances .ultimas_concursantes .concursante img {width:75px; height:75px; position:absolute; top:5px; left:5px;
    -webkit-border-radius:75px;
    -moz-border-radius:75px;
    border-radius:75px;

@@ -289,7 +289,10 @@
     <!--#slides2-->
   </div>
   <!--/cont-->
-  <div class="cont">
+  <?php endwhile; ?>
+  <?php wp_reset_query(); ?>
+</div>
+<div class="cont">
   <div class="prueba_">
 <span class="100">REFERECIA: 100 - oiáéíóúñio ááa - Chupa chups ice cream jelly beans liquorice muffin bear claw pudding wafer gummies.</span>
 <span class="200">REFERECIA: 200 - oiáéíóúñio ááa - Chocolate cake biscuit cake. I love apple pie powder cookie. Applicake bonbon lemon drops</span> 
@@ -305,9 +308,6 @@
 <span class="ref">REFERECIA: Normal - oiáéíóúñio ááa -Pastry macaroon tart gummi bears brownie. Liquorice soufflé chupa chups biscuit</span> 
 </div>
   </div>
-  <?php endwhile; ?>
-  <?php wp_reset_query(); ?>
-</div>
 <?php
 	wp_footer();
 ?>

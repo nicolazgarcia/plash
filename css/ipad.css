@@ -142,8 +142,9 @@ a.facebook {
 	background:url(../images/conjunto_lasplash.png) no-repeat;
 }
 /*----------------------------probando estilos ------------------*/
+.prueba_ { width:520px;}
 .100, .200, .300, .400, .500, .600, .700, .800, .900, .bold, .ref {
-	width:500px; display:block; margin:10px;}
+	width:500px; display:block; margin:30px 10px;}
 .100 { font-weight:100;}
 .200 { font-weight:200;}
 .300 { font-weight:300;}

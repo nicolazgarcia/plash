@@ -3,7 +3,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>LASPlash Cosmetics</title>
+	<title>LASplash Cosmetics</title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/normalize.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/global.css" media="all" />
@@ -53,13 +53,13 @@
         <div class="slide">
           <div class="content">
             <h3 class="subt reglas">Reglas del Concurso</h3>
-            <div class="paso uno"> <span class="icono">paso 1</span> maquillate usando <br>
-              uno de <b>nuestros productos</b> </div>
+              <div class="paso uno"> <span class="icono">paso 1</span> Maquillate usando <br>
+    uno de <b>nuestros productos</b></div>
             <!--/paso uno-->
-            <div class="paso dos"> <span class="icono">paso 2</span> Escoge una pose LASPlash <br>
-              -Cubre tus labios, muestra tus ojos<br>
-              -Cubre tus ojos, muestra tus labios <br>
-              y tus uñas pintadas </div>
+            <div class="paso dos"> <span class="icono">paso 2</span> Escoge una pose LASplash <br>
+    &bull; Cubre tus labios, muestra tus ojos<br>
+    &bull; Cubre tus ojos, muestra tus labios
+    y uñas pintadas</div>
             <!--/paso dos-->
           </div>
           <!--/content-->
@@ -69,11 +69,9 @@
         
         <div class="slide">
           <div class="content">
-            <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> tomate una fotografia con la pose que escogiste, mostrando el 
-              <a href="">producto<br>LASPlash</a> que utilizaste <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo " width="170" height="118"> </div>
+          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> T&oacute;mate una fotografía con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que hayas utilizado. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo" width="170" height="118"> </div>
             <!--/paso tres-->
-            <div class="paso cuatro"> <span class="icono">paso4</span> Envianos tus fotografias <br>
-              ya sea con una pose o con las dos ! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
+            <div class="paso cuatro"> <span class="icono">paso4</span> Envíanos tus fotograf&iacute;as con las poses que hayas elegido a nuestro correo! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
             <!--/paso cuatro-->
           </div>
           <!--/content-->
@@ -83,9 +81,9 @@
         
         <div class="slide">
           <div class="content">
-            <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASPlash panama</a> en <b>facebook</b> para ver tu foto </div>
+          <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASplash panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
             <!-- /paso cinco-->
-            <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos, pulsando share. Las 5 fotos con mas likes llegara a finalista. </div>
+            <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta. <br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
               <div class="globo_premio"><span class="guia"></span>Y podras ganarte <br>

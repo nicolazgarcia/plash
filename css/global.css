@@ -284,15 +284,16 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
 #loading-bar { position:absolute; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}
 /*----------------------------probando estilos ------------------*/
-.100, .200, .300, .400, .500, .600, .700, .800, .900, .bold, .ref {
-	width:500px; display:block; margin:10px;}
-.100 { font-weight:100;}
-.200 { font-weight:200;}
-.300 { font-weight:300;}
-.400 { font-weight:400;}
-.500 { font-weight:500;}
-.600 { font-weight:600;}
-.700 { font-weight:700;}
-.800 { font-weight:800;}
-.900 { font-weight:900;}
+.prueba_ { width:520px;}
+.prueba_ span{
+	width:500px; display:block; margin:30px 10px;}
+.uno { font-weight:100;}
+.dos { font-weight:200;}
+.tres { font-weight:300;}
+.cuatro { font-weight:400;}
+.cinco { font-weight:500;}
+.seis { font-weight:600;}
+.siete { font-weight:700;}
+.ocho { font-weight:800;}
+.nueve { font-weight:900;}
 .bold { font-weight:bold;}

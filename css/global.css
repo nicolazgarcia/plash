@@ -104,7 +104,7 @@ body {
   position: relative; z-index: 99;
 }
 #main .titulo h1 { height:48px; line-height:48px; display:block; text-align:center; text-indent:-9999px; color:#8CC63F; background-image:url(../images/titulos.png); background-repeat:no-repeat;}
-#main h3.subt { height:27px; font-family: 'Abel', sans-serif; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
+#main h3.subt { height:27px; font-family: 'Abel', sans-serif; font-weight:normal; font-size:18px; line-height:27px; text-align:center; display:block; text-transform:uppercase;
    -webkit-border-radius:25px;
    -moz-border-radius:25px;
    border-radius:25px;
@@ -148,7 +148,7 @@ body {
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
 #instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
-#instrucciones .box .globo_premio b {font-weight:bold; font-style:normal; font-variant:normal; word-spacing:-4px; letter-spacing:-1px;}
+#instrucciones .box .globo_premio b {font-weight:bold; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
 h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .video{ width:358px; height:228px;}

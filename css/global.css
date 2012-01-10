@@ -5,13 +5,16 @@
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
-	font: 18px/27px 'QuicksandBold', Arial, sans-serif;
+	font:18px/27px;
 }
 #main {
 	height:5000px;
 }
 body {
-	font: 12px/18px 'QuicksandLight', Arial, sans-serif;
+	font: 12px/18px 'Quicksand', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal; 
+	font-variant:normal;
 	color: #fff;
 	background:#000;
 }
@@ -124,8 +127,8 @@ body {
 #instrucciones h3.reglas { width:199px; background:#00D9FF; }
 #instrucciones .paso, #instrucciones .box  { float:left; display:block; line-height:16px;}
 #instrucciones .paso .icono { width:94px; height:0px; padding-top:111px; display:block;  background-image:url(../images/sprite_pasos.png); position:absolute; overflow:hidden;}
-#instrucciones .paso b { color:#EC297B; font-family:'QuicksandBold', Arial, sans-serif;}
-#instrucciones .paso a, .box_producto a { color:#00D9FF; font-family:'QuicksandBold', Arial, sans-serif; text-decoration:none;}
+#instrucciones .paso b { color:#EC297B; font-weight:bold; font-style:normal; font-variant:normal;}
+#instrucciones .paso a, .box_producto a { color:#00D9FF; font-weight:bold; font-style:normal; font-variant:normal; text-decoration:none;}
 #instrucciones .paso a:hover, .box_producto a:hover { text-decoration:underline;}
 #instrucciones .uno { width:160px; margin:90px 102px 36px;}
 #instrucciones .uno .icono { margin-left:-103px; margin-top:-47px;}
@@ -145,7 +148,7 @@ body {
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
 #instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
-#instrucciones .box .globo_premio b {font-family:'QuicksandBold', Arial, sans-serif; word-spacing:-4px; letter-spacing:-1px;}
+#instrucciones .box .globo_premio b {font-weight:bold; font-style:normal; font-variant:normal; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
 h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .video{ width:358px; height:228px;}
@@ -190,7 +193,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 #avances .box { height:222px; display:block;}
 #avances .globo_mas_votada{ text-align:center; width:152px; float:left; display:block; font-size:23px; line-height:20px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:16px 3px;}
 #avances .globo_mas_votada .guia {width:48px; height:40px; display:block; background-image:url(../images/f_globomasvotada.png); position:absolute; margin-top:16px; margin-left:106px;}
-#avances .globo_mas_votada b { text-transform:uppercase; font-family:'QuicksandBold', Arial, sans-serif; letter-spacing:-3px;}
+#avances .globo_mas_votada b { text-transform:uppercase; font-weight:bold; font-style:normal; font-variant:normal; letter-spacing:-3px;}
 #avances .avatar { width:205px; height:205px; background:#FFF;
    -webkit-border-radius: 205px;
    -moz-border-radius: 205px;
@@ -277,6 +280,6 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .cont .producto .box_producto { margin-right:11px;}
 .cont .producto2 .box_producto { margin-top:20px; text-align:right;}
 .cont .producto2 {width:400px; height:122px; margin-left:0px; margin-top:10px;}
-.cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-family:'QuicksandBold', Arial, sans-serif;}
+.cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-weight:bold; font-style:normal; font-variant:normal;}
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
 #loading-bar { position:absolute; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}

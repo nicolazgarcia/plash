@@ -7,8 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/normalize.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/global.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/fonts/stylesheet.css" media="all" />
-	<link href='http://fonts.googleapis.com/css?family=Abel|Anton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Abel|Anton|Quicksand:400,700' rel='stylesheet' type='text/css'>
 	<?php
 	wp_enqueue_script('slides', get_bloginfo('template_directory').'/js/slides.min.jquery.js', array('jquery'));
 	wp_enqueue_script('ProgressiveImageSequence', get_bloginfo('template_directory').'/js/ProgressiveImageSequence.class.js', array('jquery'));

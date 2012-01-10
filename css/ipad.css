@@ -10,7 +10,7 @@ color:#FFF;
 }
 body {
 	font: 12px/18px 'Quicksand', Arial, sans-serif;
-	font-weight:normal;
+	font-weight:800;
 	font-style:normal; 
 	font-variant:normal;
 	color: #fff;
@@ -141,17 +141,3 @@ a.facebook {
 	margin-top:25px;
 	background:url(../images/conjunto_lasplash.png) no-repeat;
 }
-/*----------------------------probando estilos ------------------*/
-.prueba_ { width:520px;}
-.prueba_ span{
-	width:500px; display:block; margin:30px 10px;}
-.uno { font-weight:100;}
-.dos { font-weight:200;}
-.tres { font-weight:300;}
-.cuatro { font-weight:400;}
-.cinco { font-weight:500;}
-.seis { font-weight:600;}
-.siete { font-weight:700;}
-.ocho { font-weight:800;}
-.nueve { font-weight:900;}
-.bold { font-weight:bold;}

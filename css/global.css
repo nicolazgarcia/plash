@@ -4,7 +4,7 @@
 	padding:0;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight:normal;
+	font-weight:800;
 	font:18px/27px;
 }
 #main {
@@ -75,7 +75,7 @@ body {
 	background-repeat:no-repeat;
 	text-indent:-9999px;
 	}
-.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; font-family: 'Abel', sans-serif; margin-top:4px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
+.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; font-family: 'Abel', sans-serif; font-weight:normal; margin-top:4px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
 .navigation a:hover > span, .navigation a.active:hover > span{ display:block;}
 .navigation ul li a.home {background-position:0 0;}
 .navigation ul li a.intrucciones {background-position:-43px 0;}
@@ -225,7 +225,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
    border-radius:10px;
 }
 #avances .ultimas_concursantes { margin-top:10px; float:right;}
-#avances .ultimas_concursantes .concursante { font-family: 'Abel', sans-serif; font-size:12px; width:65px; height:61px; padding:12px 10px; display:block; border: 1px dashed #FFF; text-align:center; text-transform:uppercase; line-height:14px; float:left; margin-left:8px; position:relative;
+#avances .ultimas_concursantes .concursante { font-family: 'Abel', sans-serif; font-weight:normal; font-size:12px; width:65px; height:61px; padding:12px 10px; display:block; border: 1px dashed #FFF; text-align:center; text-transform:uppercase; line-height:14px; float:left; margin-left:8px; position:relative;
    -webkit-border-radius:75px;
    -moz-border-radius:75px;
    border-radius:75px;
@@ -244,7 +244,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 #recursos .box h3 { margin-bottom:22px;}
 #recursos .box p, #recursos .box img { float:left;}
 #recursos .box p { width:230px;}
-#recursos .box img { margin-right:-35px; margin-top:-60px; float:right;}
+#recursos .box img { margin-right:-32px; margin-top:-60px; float:right;}
 
 .cont  h3.producto { width:195px; background:#00D9FF; margin-left:194px;}
 .cont  h3.look { width:155px; background:#29B473; margin-top:33px;}

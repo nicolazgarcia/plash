@@ -44,6 +44,9 @@ body {
     background-repeat: no-repeat;
     background-position: 1px 6px;
 }
+.video_lasplash{
+	position:fixed;
+}
 .video_lasplash > img, .video_lasplash > video {
 	width: 520px;
 	height: 545px;

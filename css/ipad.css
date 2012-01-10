@@ -9,7 +9,10 @@ background:rgba(0, 0, 0, 0.8);
 color:#FFF;
 }
 body {
-	font-family: 'Quicksand', sans-serif;
+	font: 12px/18px 'Quicksand', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal; 
+	font-variant:normal;
 	color: #fff;
 	background:#000 url(../images/bg_ipad.jpg) no-repeat;
 }
@@ -138,3 +141,16 @@ a.facebook {
 	margin-top:25px;
 	background:url(../images/conjunto_lasplash.png) no-repeat;
 }
+/*----------------------------probando estilos ------------------*/
+.100, .200, .300, .400, .500, .600, .700, .800, .900, .bold, .ref {
+	width:500px; display:block; margin:10px;}
+.100 { font-weight:100;}
+.200 { font-weight:200;}
+.300 { font-weight:300;}
+.400 { font-weight:400;}
+.500 { font-weight:500;}
+.600 { font-weight:600;}
+.700 { font-weight:700;}
+.800 { font-weight:800;}
+.900 { font-weight:900;}
+.bold { font-weight:bold;}

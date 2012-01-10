@@ -289,6 +289,22 @@
     <!--#slides2-->
   </div>
   <!--/cont-->
+  <div class="cont">
+  <div class="prueba_">
+<span class="100">REFERECIA: 100 - oiáéíóúñio ááa - Chupa chups ice cream jelly beans liquorice muffin bear claw pudding wafer gummies.</span>
+<span class="200">REFERECIA: 200 - oiáéíóúñio ááa - Chocolate cake biscuit cake. I love apple pie powder cookie. Applicake bonbon lemon drops</span> 
+<span class="300">REFERECIA: 300 - oiáéíóúñio ááa - bear claw gummi bears apple pie. Sweet biscuit I love sugar plum brownie carrot</span> 
+<span class="400">REFERECIA: 400 - oiáéíóúñio ááa - cake marshmallow. Cake bonbon tiramisu pie I love fruitcake sweet danish bonbon.</span>
+<span class="500">REFERECIA: 500 - oiáéíóúñio ááa -  Marzipan powder jujubes fruitcake toffee bonbon I love dragée.</span>
+<span class="600">REFERECIA: 600 - oiáéíóúñio ááa - Caramels sesame snaps sugar plum caramels topping muffin. Sweet pudding</span>
+<span class="700">REFERECIA: 700 - oiáéíóúñio ááa - I love chocolate cake croissant halvah brownie powder. Lemon drops donut pudding.</span>
+<span class="800">REFERECIA: 800 - oiáéíóúñio ááa -  Bear claw candy jelly beans toffee faworki I love brownie jelly danish.</span>
+<span class="900">REFERECIA: 900 - oiáéíóúñio ááa -  Macaroon chocolate cake candy canes cotton candy danish candy jelly-o applicake jelly beans.</span>
+<span class="bold"> REFERECIA: bold - oiáéíóúñio ááa - I love lemon drops oat cake gummi bears tart. Tootsie roll bonbon gingerbread cheesecake toffee.
+</span>
+<span class="ref">REFERECIA: Normal - oiáéíóúñio ááa -Pastry macaroon tart gummi bears brownie. Liquorice soufflé chupa chups biscuit</span> 
+</div>
+  </div>
   <?php endwhile; ?>
   <?php wp_reset_query(); ?>
 </div>

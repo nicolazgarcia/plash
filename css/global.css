@@ -75,7 +75,7 @@ body {
 	background-repeat:no-repeat;
 	text-indent:-9999px;
 	}
-.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; margin-top:4px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
+.navigation a > span, .navigation a.active > span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 6px; margin-top:3px; text-indent:0px; font-size:15px; line-height:15px; display:none;}
 .navigation a:hover > span, .navigation a.active:hover > span{ display:block;}
 .navigation ul li a.home {background-position:0 0;}
 .navigation ul li a.intrucciones {background-position:-43px 0;}

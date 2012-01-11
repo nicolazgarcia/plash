@@ -25,7 +25,6 @@ body {
 ::-webkit-scrollbar-track {
 	background:rgba(255,255,255, 0.8);
 }
-
 ::-webkit-scrollbar-thumb {
     border-radius: 1px;
 	background:#000;
@@ -34,12 +33,12 @@ body {
 ::-webkit-scrollbar-button:vertical {
     height: 20px;
 }
-::-webkit-scrollbar-button:decrement {
+::-webkit-scrollbar-button:vertical:decrement {
     background-image: url(../images/vertical-decrement-arrow.png);
     background-repeat: no-repeat;
     background-position: 1px 6px;
 }
-::-webkit-scrollbar-button:increment {
+::-webkit-scrollbar-button:vertical:increment {
     background-image: url(../images/vertical-increment-arrow.png);
     background-repeat: no-repeat;
     background-position: 1px 6px;
@@ -91,8 +90,7 @@ body {
 .navigation ul li a.avances.active {background-position:-86px -35px;}
 .navigation ul li a.recursos.active {background-position:-129px -35px;}
 
-/*--------------------------------*/
-/*#portada, #instrucciones, #instrucciones_p2, #avances, #recursos,*/ 
+/*--------------------------------*/ 
 .cont { height:545px;}
 #main .content { width:391px; margin-left:85px; margin-top:18px;}
 #main .titulo { width:100%; height:48px; line-height:48px; display:block; margin-bottom:15px; text-align:center;
@@ -167,7 +165,9 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .pagination li a {z-index:95;display:block; width:21px;height:0;padding-top:21px;background-image:url(../images/sprite_.png);background-position:0 -110px;float:left; left:8px; position:relative; text-decoration:none; overflow:hidden;}
 .pagination li.current a {background-position:0 -158px;}
 .pagination li a:hover { background-position:0 -134px;}
-/*.pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
+/* 
+para añadir los numeros en la navegacion de slides quritar el overflow en .pagination li a   
+.pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
 .pagination li a:hover span, .pagination li.current a span {display:block;}
 .pagination li.current a:hover span {background:rgba(0,0,0,0.2); color:#00D9FF;}
 */

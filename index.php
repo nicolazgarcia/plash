@@ -149,7 +149,7 @@
 	  }
       ?>
       <div class="total_concursantes"><?php echo $total_spans; ?></div>
-      <h3 class="subt ultimas_c">Ultimas concursantes</h3>
+      <h3 class="subt ultimas_c">&Uacute;ltimas concursantes</h3>
       <div class="ultimas_concursantes">
       	<?php
       	$default_pic = get_bloginfo( 'template_directory' ).'/images/avatar_votos.jpg';

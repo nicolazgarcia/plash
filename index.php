@@ -107,9 +107,12 @@
     <div class="content">
       <h3 class="subt tips">Tips de Maquillaje</h3>
       <div class="video">
-      <?php if ( is_active_sidebar( 'video-widget-area' ) ) {
+      <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_video.png" alt="ejemplo" width="358" height="228">
+      <!--
+	  ?php if ( is_active_sidebar( 'video-widget-area' ) ) {
 		dynamic_sidebar( 'video-widget-area' );
       } ?>
+      -->
       </div>
       <span class="store_locator">STORELOCATOR <br>
       FARMACIAS REVILLA <br>

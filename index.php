@@ -11,7 +11,6 @@
 	<?php
 	wp_enqueue_script('slides', get_bloginfo('template_directory').'/js/slides.min.jquery.js', array('jquery'));
 	wp_enqueue_script('ProgressiveImageSequence', get_bloginfo('template_directory').'/js/ProgressiveImageSequence.class.js', array('jquery'));
-	wp_enqueue_script('stickytitle', get_bloginfo('template_directory').'/js/stickytitle.js', array('jquery'));
 	wp_enqueue_script('scrollTo', get_bloginfo('template_directory').'/js/jquery.scrollTo-1.4.2-min.js', array('jquery'), '1.4.2');
 	wp_enqueue_script('scripts', get_bloginfo('template_directory').'/js/scripts.js', array('jquery', 'scrollTo'));
 	wp_enqueue_script('footer', get_bloginfo('template_directory').'/js/footer.js', array('jquery'), '', true);
@@ -107,9 +106,7 @@
     <div class="content">
       <h3 class="subt tips">Tips de Maquillaje</h3>
       <div class="video">
-      <?php if ( is_active_sidebar( 'video-widget-area' ) ) {
-		dynamic_sidebar( 'video-widget-area' );
-      } ?>
+        <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_video.png" alt="video" width="358" height="228">
       </div>
       <span class="store_locator">STORELOCATOR <br>
       FARMACIAS REVILLA <br>

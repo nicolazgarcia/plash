@@ -69,9 +69,9 @@
         
         <div class="slide">
           <div class="content">
-          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> T&oacute;mate una fotografía con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que hayas utilizado. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo" width="170" height="118"> </div>
+          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> T&oacute;mate una fotograf&iacute;a con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que hayas utilizado. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo" width="170" height="118"> </div>
             <!--/paso tres-->
-            <div class="paso cuatro"> <span class="icono">paso4</span> Envíanos tus fotograf&iacute;as con las poses que hayas elegido a nuestro correo! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
+            <div class="paso cuatro"> <span class="icono">paso4</span> Env&iacute;anos tus fotograf&iacute;as con las poses que hayas elegido a nuestro correo! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
             <!--/paso cuatro-->
           </div>
           <!--/content-->

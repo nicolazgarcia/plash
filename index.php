@@ -81,12 +81,12 @@
         
         <div class="slide">
           <div class="content">
-          <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASplash panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
+          <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASplash Panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta. <br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Y podrás ganarte <br>
+              <div class="globo_premio"><span class="guia"></span>Y podr&aacute;s ganarte <br>
                 <b>UN CRUCERO PARA <br>
                 DOS PERSONAS!!</b></span></div>
             </div>

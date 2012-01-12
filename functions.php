@@ -30,7 +30,17 @@ function widgets_init() {
 		'before_title' => '',
 		'after_title' => '',
 	) );
+	// Area 0, video tips.
+	register_sidebar( array(
+		'name' => 'Video',
+		'id' => 'video-widget-area',
+		'description' => 'Area para video tips',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
+	) );
 }
 /** Register sidebars by running starkers_widgets_init() on the widgets_init hook. */
-add_action('widgets_init');
+add_action( 'widgets_init', 'widgets_init' );
 ?>

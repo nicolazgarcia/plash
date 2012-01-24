@@ -93,13 +93,13 @@ span.logo {
 	background-position:-140px -38px;
 }
 .store_locator {
-	width:348px;
+	width:393px;
 	height:0;
-	padding-top:147px;
+	padding-top:128px;
 	display:block;
 	overflow:hidden;
-	background:url(../images/store_locator_ipad.png) no-repeat;
-	margin:64px 85px 0px;
+	background:url(../images/store_locator.png) no-repeat;
+	margin:64px 63px 0px;
 }
 .foot { margin-top:38px;}
 .contacto { margin-left:32px; height:27px;}

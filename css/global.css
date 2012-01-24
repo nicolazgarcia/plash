@@ -110,7 +110,7 @@ body {
 #portada .content { display:block; padding-top:56px; margin-top:0;}
 #portada .logo { width:311px; height:245px; display:block; margin:10px 63px 36px 4px;}
 #portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(../images/sprite_.png) 0 -290px;display:block;overflow:hidden;}	
-#portada .frase { font-size:14px; text-align:justify; letter-spacing:2px;}
+#portada .frase { font-size:16px; text-align:justify; letter-spacing:2px; font-weight:600;}
 #portada .frase p { padding:8px 0; margin-top:11px; border-top:1px solid #FFF; border-bottom:1px solid #FFF;}
 
 #main .sticky {
@@ -135,7 +135,7 @@ body {
 #instrucciones .tres { width:233px; margin:40px 100px; }
 #instrucciones .tres .icono { margin-left:-100px; background-position:-196px 0;}
 #instrucciones .tres .linea { width:60px; height:59px; display:block; background:url(../images/linea_.png) no-repeat; position:absolute; margin-left:-46px; margin-top:110px; }
-#instrucciones .tres img { margin-top:16px;}
+#instrucciones .tres img { margin:16px 9px 0;}
 #instrucciones .cuatro { margin:54px 122px 48px 65px; width:213px; text-align:right;}
 #instrucciones .cuatro .icono { margin-left:224px; margin-top:-42px; background-position:0 -115px;}
 #instrucciones .cinco { width:161px; margin:38px 126px 62px 111px; }
@@ -151,7 +151,7 @@ body {
 h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
 .video{ width:358px; height:228px;}
 .video img { margin-left:8px;}
-.store_locator { width:305px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px 39px;}
+.store_locator { width:393px; height:0; padding-top:130px; display:block; overflow:hidden; background:url(../images/store_locator.png) no-repeat; margin:15px -5px;}
 /*--------------------------------*/
 #slides1 { margin-top:0px; position:absolute;}
 #slides2, #slides3, #slides4, #slides5 { padding-top:50px; position:absolute;}

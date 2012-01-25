@@ -86,7 +86,7 @@
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta.<br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Podr&aacute;s ganarte una<br> <b>Noche LASplash</b> inolvidable con todas tus amigas</span></div>
+              <div class="globo_premio"><span class="guia"></span>Podr&aacute;s ganarte una <b>Noche LASplash</b> inolvidable con todas tus amigas</span></div>
             </div>
             <!--/box-->
           </div>

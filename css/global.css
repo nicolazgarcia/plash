@@ -141,7 +141,7 @@ body {
 #instrucciones .cinco { width:161px; margin:45px 126px 62px 111px; }
 #instrucciones .cinco .icono { margin-left:-106px; margin-top:-35px; background-position:-98px -116px;}
 #instrucciones .seis { width:215px; margin:30px 139px 0px 66px; text-align:right; }
-#instrucciones .seis .icono { margin-left:225px; margin-top:-45px; background-position:-196px -115px;}
+#instrucciones .seis .icono { margin-left:225px; margin-top:-35px; background-position:-196px -115px;}
 #instrucciones .box { width:352px; height:70px; margin:100px 0 0 16px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
@@ -284,7 +284,7 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
 #loading-bar { position:fixed; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}
 /*_*/
-.credits {width:22px; margin-top:-49px; margin-left:3px;}
+.credits {width:22px; margin-top:-52px; margin-left:3px; position:absolute;}
 .credits a {width:22px;height:0;padding-top:20px;display:block;overflow:hidden;background:url(../images/credit_sprite.png) no-repeat;margin:3px;}
 .credits a.key {background-position:-24px 0;}
 .credits a.facto {background-position:0 0;}

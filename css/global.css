@@ -140,12 +140,12 @@ body {
 #instrucciones .cuatro .icono { margin-left:224px; margin-top:-42px; background-position:0 -115px;}
 #instrucciones .cinco { width:161px; margin:38px 126px 62px 111px; }
 #instrucciones .cinco .icono { margin-left:-106px; margin-top:-45px; background-position:-98px -115px;}
-#instrucciones .seis { width:205px; margin:30px 139px 0px 56px; }
+#instrucciones .seis { width:205px; margin:30px 139px 0px 56px; text-align:right; }
 #instrucciones .seis .icono { margin-left:217px; margin-top:-45px; background-position:-196px -115px;}
 #instrucciones .box { width:352px; height:70px; margin:100px 0 0 16px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
-#instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:20px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
+#instrucciones .box .globo_premio { text-align:left; width:228px; float:left; display:block; font-size:23px; line-height:22px; margin-left:15px; margin-top:-5px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
 #instrucciones .box .globo_premio b {font-weight:bold; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
 h3.tips{ width:175px; background:#EC297B; margin:84px 35px 22px 181px; }
@@ -191,7 +191,7 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 /*--------------------------------*/
 #avances .titulo h1 {background-position:84px -44px;}
 #avances .box { height:222px; display:block;}
-#avances .globo_mas_votada{ text-align:center; width:152px; float:left; display:block; font-size:23px; line-height:20px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:16px 3px;}
+#avances .globo_mas_votada{ text-align:center; width:152px; float:left; display:block; font-size:23px; line-height:22px; background:rgba(255, 0, 255, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:16px 3px;}
 #avances .globo_mas_votada .guia {width:48px; height:40px; display:block; background-image:url(../images/f_globomasvotada.png); position:absolute; margin-top:16px; margin-left:106px;}
 #avances .globo_mas_votada b { text-transform:uppercase; font-weight:bold; font-style:normal; font-variant:normal; letter-spacing:-3px;}
 #avances .avatar { width:205px; height:205px; background:#FFF;
@@ -281,5 +281,5 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 .cont .producto2 .box_producto { margin-top:20px; text-align:right;}
 .cont .producto2 {width:400px; height:122px; margin-left:0px; margin-top:10px;}
 .cont span.nombre { width:202px; height:18px; display:block; margin-bottom:4px; font-weight:bold; font-style:normal; font-variant:normal;}
-.cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
+.cont span.descripcion { width:202px; height:44px; display:block; line-height:16px;}
 #loading-bar { position:fixed; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}

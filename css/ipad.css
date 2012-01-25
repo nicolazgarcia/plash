@@ -141,3 +141,27 @@ a.facebook {
 	margin-top:25px;
 	background:url(../images/conjunto_lasplash.png) no-repeat;
 }
+.credits {
+	width:70px;
+	height:26px;
+	margin:0 auto;
+}
+.credits a {
+	width:22px;
+	height:0;
+	padding-top:20px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	background:url(../images/credit_sprite.png) no-repeat;
+	margin-top:3px;
+}
+.credits a.key {
+	background-position:-24px 0;
+	padding-right:10px;
+	border-right:1px solid #666;
+}
+.credits a.facto {
+	background-position:0 0;
+	margin-left:10px;
+}

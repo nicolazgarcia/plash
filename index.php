@@ -56,7 +56,7 @@
               <div class="paso uno"> <span class="icono">paso 1</span> Maquillate usando <br>
     uno de <b>nuestros productos</b></div>
             <!--/paso uno-->
-            <div class="paso dos"> <span class="icono">paso 2</span> Escoge una pose LASplash <br>
+            <div class="paso dos"> <span class="icono">paso 2</span> Escoge una pose LASplash<br>
     &bull; Cubre tus labios, muestra tus ojos<br>
     &bull; Cubre tus ojos, muestra tus labios
     y uñas pintadas</div>
@@ -69,7 +69,7 @@
         
         <div class="slide">
           <div class="content">
-          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span> T&oacute;mate una fotograf&iacute;a con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que hayas utilizado. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo"> </div>
+          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span>T&oacute;mate una fotograf&iacute;a con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que utilizaste. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo"> </div>
             <!--/paso tres-->
             <div class="paso cuatro"> <span class="icono">paso4</span> Env&iacute;anos tus fotograf&iacute;as con las poses que hayas elegido a nuestro correo! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
             <!--/paso cuatro-->
@@ -86,9 +86,7 @@
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta. <br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Y podr&aacute;s ganarte <br>
-                <b>UN CRUCERO PARA <br>
-                DOS PERSONAS!!</b></span></div>
+              <div class="globo_premio"><span class="guia"></span>Podr&aacute;s ganarte <br> una <b>Noche LASplash</b> inolvidable con todas tus amigas</span></div>
             </div>
             <!--/box-->
           </div>

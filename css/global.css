@@ -284,7 +284,7 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 .cont span.descripcion { width:193px; height:44px; display:block; margin-left:5px; line-height:16px;}
 #loading-bar { position:fixed; bottom:0; left:0; background-color: #DF0012; background-color: rgba(223,0,18,0.5); height:3px;}
 /*_*/
-.credits {width:70px;height:26px;margin:0 auto;}
-.credits a {width:22px;height:0;padding-top:20px;display:block;overflow:hidden;float:left;background:url(../images/credit_sprite.png) no-repeat;margin-top:3px;}
-.credits a.key {background-position:-24px 0;padding-right:10px;border-right:1px solid #666;}
-.credits a.facto {background-position:0 0;margin-left:10px;}
+.credits {width:22px; margin-top:-49px; margin-left:3px;}
+.credits a {width:22px;height:0;padding-top:20px;display:block;overflow:hidden;background:url(../images/credit_sprite.png) no-repeat;margin:3px;}
+.credits a.key {background-position:-24px 0;}
+.credits a.facto {background-position:0 0;}

@@ -142,7 +142,7 @@ body {
 #instrucciones .cinco .icono { margin-left:-106px; margin-top:-35px; background-position:-98px -116px;}
 #instrucciones .seis { width:215px; margin:0px 139px 0px 66px; text-align:right; }
 #instrucciones .seis .icono { margin-left:225px; margin-top:-35px; background-position:-196px -116px;}
-#instrucciones .box { width:352px; height:70px; margin-top:70px; margin-left:-10px;}
+#instrucciones .box { width:402px; height:70px; margin-top:70px; margin-left:-10px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
 #instrucciones .box .globo_premio { text-align:left; width:286px; float:left; display:block; font-size:20px; line-height:18px; margin-left:15px; margin-top:-10px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}

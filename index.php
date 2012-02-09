@@ -69,7 +69,7 @@
         
         <div class="slide">
           <div class="content">
-          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span>T&oacute;mate una fotograf&iacute;a con la pose que hayas escogido, mostrando el <a href="">producto LASplash</a> que utilizaste. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo"> </div>
+          <div class="paso tres"> <span class="linea"></span> <span class="icono">paso3</span>T&oacute;mate una fotograf&iacute;a con la pose que hayas escogido, mostrando el <a href="http://lasplashcosmetics.com.pa" target="_blank">producto LASplash</a> que utilizaste. Mira estos ejemplos: <img src="<?php bloginfo( 'template_directory' ); ?>/images/demo_.png" alt="ejemplo"> </div>
             <!--/paso tres-->
             <div class="paso cuatro"> <span class="icono">paso4</span> Env&iacute;anos tus fotograf&iacute;as con las poses que hayas elegido a nuestro correo! <a href="mailto:concurso@lasplashcosmetics.com.pa">concurso@lasplashcosmetics.com.pa</a> </div>
             <!--/paso cuatro-->
@@ -81,12 +81,14 @@
         
         <div class="slide">
           <div class="content">
-          <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="">LASplash Panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
+          <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="http://lasplashcosmetics.com.pa/" target="_blank">LASplash Panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
             <!-- /paso cinco-->
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta.<br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
-            <div class="box"> <a class="down_pdf" href="">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Podr&aacute;s ganarte una <b>Noche LASplash</b> inolvidable con todas tus amigas</span></div>
+            <div class="box"> <a class="down_pdf" href="http://keyspot.com.pa/wp-content/themes/plash/comparte_tu_look.pdf" target="_blank">Instrucciones descargar pdf</a>
+              <div class="globo_premio"><span class="guia"></span>Se la ganadora de un paseo de noche en el VIP Bus de LASplash para ti y 25 amigas. 
+Por 2:30hs, con consumiciones incluidas 
+Y $50 en productos <b>LASplash Cosmetics</b> !</span></div>
             </div>
             <!--/box-->
           </div>

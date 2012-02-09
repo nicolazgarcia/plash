@@ -86,7 +86,7 @@
             <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta.<br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="http://keyspot.com.pa/wp-content/themes/plash/comparte_tu_look.pdf" target="_blank">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Se la ganadora de un paseo de noche en el VIP Bus de LASplash para ti y 25 amigas. 
+              <div class="globo_premio"><span class="guia"></span>Se la ganadora de un paseo de noche en el VIP Bus de <b>LASplash</b> para ti y 25 amigas. 
 Por 2:30hs, con consumiciones incluidas 
 Y $50 en productos <b>LASplash Cosmetics</b> !</span></div>
             </div>

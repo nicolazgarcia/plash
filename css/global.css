@@ -109,7 +109,7 @@ body {
 }
 #portada .content { display:block; padding-top:56px; margin-top:0;}
 #portada .logo { width:360px; height:276px; display:block; margin:30px 0px;}
-#portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(../images/sprite_.png) 0 -290px;display:block;overflow:hidden;}	
+#portada .frase h1.titulo_lasplash { width:246px; height:0; padding-top:25px; font-size:18px; font-weight:500; display:block; background:url(../images/sprite_.png) 0 -290px;display:block;overflow:hidden; margin-left:75px;}	
 #portada .frase { font-size:15px; text-align:justify; letter-spacing:2px;}
 #portada .frase p { display:none; padding:8px 0; margin-top:11px; border-top:1px solid #FFF; border-bottom:1px solid #FFF;}
 
@@ -166,7 +166,7 @@ h3.tips{ width:175px; background:#EC297B; margin:84px 0px 22px 210px; }
 .pagination li.current a {background-position:0 -158px;}
 .pagination li a:hover { background-position:0 -134px;}
 /* 
-para añadir los numeros en la navegacion de slides quritar el overflow en .pagination li a   
+para aï¿½adir los numeros en la navegacion de slides quritar el overflow en .pagination li a   
 .pagination li a span, .pagination li.current a span{ position:absolute; background:rgba(0,0,0,0.7); padding:2px 3px; font-family: 'Abel', sans-serif; margin:-4px 4px; font-size:15px; line-height:15px; display:none; color:#FFF;}
 .pagination li a:hover span, .pagination li.current a span {display:block;}
 .pagination li.current a:hover span {background:rgba(0,0,0,0.2); color:#00D9FF;}
@@ -289,6 +289,6 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 .credits a.key {background-position:-24px 0;}
 .credits a.facto {background-position:0 0;}
 .temp_avances {
-	margin:90px 54px;
+	margin:50px 45px;
 	display:block;
 }

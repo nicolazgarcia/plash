@@ -288,3 +288,7 @@ para añadir los numeros en la navegacion de slides quritar el overflow en .pagin
 .credits a {width:22px;height:0;padding-top:20px;display:block;overflow:hidden;background:url(../images/credit_sprite.png) no-repeat;margin:3px;}
 .credits a.key {background-position:-24px 0;}
 .credits a.facto {background-position:0 0;}
+.temp_avances {
+	margin:90px 54px;
+	display:block;
+}

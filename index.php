@@ -121,55 +121,8 @@ Y $50 en productos <b>LASplash Cosmetics</b> !</span></div>
     <div class="titulo">
       <h1>Avances del Concurso</h1>
     </div>
-    <div class="content">
-    <?php query_posts("posts_per_page=1"); ?>
-	<?php while (have_posts()) : the_post(); ?>
-      <div class="box">
-        <div class="globo_mas_votada">la foto <br>
-          <b>m&aacute;s votada</b><span class="guia"></span>
-        </div>
-        <div class="avatar">
-        <?php
-        	if( has_post_thumbnail() ){
-				the_post_thumbnail('leader-thumb');
-			}else{
-				echo '<img alt="La foto mas votada" src="'.get_bloginfo( 'template_directory' ).'/images/avatar_mas_votada.jpg">';
-			}
-		?>
-        <span class="likes"><?php echo simple_fields_get_post_value($post->ID, "Votos", true); ?><span class="left"></span><span class="right"></span></span>
-        </div>
-      </div>
-      <!--/box-->
-      <h3 class="subt total_c">Total de concursantes</h3>
-      <?php
-      $total = simple_fields_get_post_value($post->ID, "Concursantes", true);
-	  $total_spans = '';
-	  for ($i=0; $i<strlen($total); $i++) {
-	  	$total_spans .= '<span>'.$total[$i].'</span>';
-	  }
-      ?>
-      <div class="total_concursantes"><?php echo $total_spans; ?></div>
-      <h3 class="subt ultimas_c">&Uacute;ltimas concursantes</h3>
-      <div class="ultimas_concursantes">
-      	<?php
-      	$default_pic = get_bloginfo( 'template_directory' ).'/images/avatar_votos.jpg';
-		$ultimas = simple_fields_get_post_group_values($post->ID, "Ultimas", true, 2);
-		foreach($ultimas as $girl){
-			echo '<span class="concursante">';
-			echo $girl['Nombre'].'<span class="numero_likes">'.$girl['Likes'].'</span>';
-			if ($image_id = $girl['Imagen']){
-				$img_attrs = wp_get_attachment_image_src($image_id, 'latest-thumb');
-				$img_src = $img_attrs[0];
-			}else{
-				$img_src = $default_pic;
-			}
-			echo '<a href="'.$girl['Url'].'"><img alt="'.$girl['Nombre'].'" src="'.$img_src.'"></a></span>';
-		}
-		?>
-      </div>
-      <!--/ultimas concursantes-->
-    <?php endwhile; ?>
-    <?php wp_reset_query(); ?>
+    <div class="content">    
+    <img alt="la foto mas votada" class="temp_avances" src="'.get_bloginfo( 'template_directory' ).'/images/avances_temp.png">
     </div>
     <!--content-->
   </div>

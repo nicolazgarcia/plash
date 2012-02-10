@@ -73,10 +73,10 @@ span.logo {
 .instrucciones .tres img { margin:6px 15px 0;}
 .instrucciones .cuatro { margin:0px 0px 102px 155px; width:221px; text-align:right;}
 .instrucciones .cuatro .icono { margin:-45px 234px; background-position:0 -116px;}
-.instrucciones .cinco { width:162px; margin:0px 0px 103px 217px; text-align:right; }
+.instrucciones .cinco { width:162px; margin:0px 0px 86px 217px; text-align:right; }
 .instrucciones .cinco .icono { margin:-50px 173px; background-position:-98px -115px;}
 .instrucciones .seis { width:202px; margin:0px 0px 0px 178px; }
-.instrucciones .seis .icono { margin:-45px 211px; background-position:-196px -116px;}
+.instrucciones .seis .icono { margin:-28px 211px; background-position:-196px -116px;}
 .instrucciones a.down_pdf {
 	width:67px;
 	height:70px;
@@ -84,7 +84,7 @@ span.logo {
 	background:url(../images/sprite_ipad.png) 0 -38px;
 	background-repeat:no-repeat;
 	position:absolute;
-	margin:-57px 70px;
+	margin:-69px 70px;
 	padding-right:20px;
 	text-indent:-9999px;
 	border-right:1px dashed #FFF;
@@ -115,8 +115,8 @@ a.subt {
 	-moz-border-radius:25px;
 	border-radius:25px;
 }
-a.avances {background:#29B473;}
-a.explora {	background:#B23BF7; margin-left:30px;}
+a.avances {background:#29B473; text-decoration:none; color:#FFF;}
+a.explora {	background:#B23BF7; text-decoration:none; color:#FFF; margin-left:30px;}
 a.twitter, a.facebook { 
     width:22px;
 	height:0;

@@ -83,7 +83,7 @@
           <div class="content">
           <div class="paso cinco"> <span class="icono">paso 5</span> Busca <a href="http://lasplashcosmetics.com.pa/" target="_blank">LASplash Panam&aacute;</a> en <b>facebook</b> para ver tu foto publicada</div>
             <!-- /paso cinco-->
-            <div class="paso seis"> <span class="icono">paso 6</span> Comparte tu foto con tus amigos pulsando Share / Me gusta.<br> Las 5 fotos con m&aacute;s likes llegar&aacute; a finalista. </div>
+            <div class="paso seis"> <span class="icono">paso 6</span> Comparte la foto con tus amigos pulsando Share (Compartir).<br> Las 3 Fotos con mas likes (Me gusta) ser&aacute;n finalistas y se escoger&aacute; una ganadora.</div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="http://lasfb.keyspot.com.pa/wp-content/themes/plash/comparte_tu_look.pdf" target="_blank">Instrucciones descargar pdf</a>
               <div class="globo_premio"><span class="guia"></span>Se la ganadora de un paseo de noche en el VIP Bus de <b>LASplash</b> para ti y 25 amigas. 

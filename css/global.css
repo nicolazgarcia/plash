@@ -145,7 +145,7 @@ body {
 #instrucciones .box { width:402px; height:70px; margin-top:70px; margin-left:-10px;}
 #instrucciones .box a.down_pdf { width:67px; height:70px; display:block; background:url(../images/sprite_.png) 0 -330px; background-repeat:no-repeat; float:left; padding-right:15px; text-indent:-9999px; border-right:1px dashed #FFF;}
 #instrucciones .box a.down_pdf:hover { background-position:-88px -330px;}
-#instrucciones .box .globo_premio { text-align:left; width:286px; float:left; display:block; font-size:20px; line-height:18px; margin-left:15px; margin-top:-10px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
+#instrucciones .box .globo_premio { text-align:left; width:286px; float:left; display:block; font-size:14px; line-height:18px; margin-left:15px; margin-top:-10px; background:rgba(236, 41, 123, 0.5); -webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px; padding:7px 7px 9px 11px;}
 #instrucciones .box .globo_premio b {font-weight:bold; word-spacing:-4px; letter-spacing:-1px;}
 #instrucciones .box .globo_premio .guia { width:43px; height:39px; display:block; position:absolute; margin-top:-46px; margin-left:155px; background:url(../images/f_globopremio.png);}
 h3.tips{ width:175px; background:#EC297B; margin:84px 0px 22px 210px; }

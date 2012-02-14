@@ -86,9 +86,7 @@
             <div class="paso seis"> <span class="icono">paso 6</span> Cu&eacute;ntale a tus amigos sobre tu participaci&oacute;n para que voten por tu foto!, Las 3 fotos con mayor votaci&oacute;n ser&aacute;n finalistas y LASplash escoger&aacute; una ganadora.</div>
             <!--/paso seis-->
             <div class="box"> <a class="down_pdf" href="http://lasfb.keyspot.com.pa/wp-content/themes/plash/comparte_tu_look.pdf" target="_blank">Instrucciones descargar pdf</a>
-              <div class="globo_premio"><span class="guia"></span>Se la ganadora de un paseo de noche en el VIP Bus de <b>LASplash</b> para ti y 25 amigas. 
-Por 2:30hs, con consumiciones incluidas 
-Y $50 en productos <b>LASplash Cosmetics</b> !</span></div>
+              <div class="globo_premio"><span class="guia"></span>A Otro Nivel!!  Se la ganadora de un Paseo en VIP Bus con open bar incluido y boquitas para ti y tus 25 mejores amigos. Adem&aacute;s de $50 en productos LASplash Cosmetics  ¡Participa Ya y Convi&eacute;rtete en Finalista!</div>
             </div>
             <!--/box-->
           </div>

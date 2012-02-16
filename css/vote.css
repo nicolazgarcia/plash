@@ -2,10 +2,15 @@ body{
 	background: url("../images/fondo1.jpg") no-repeat fixed;
 	width: 520px;
 }
+#header{
+	background: url("../images/logo_ctl-01.png") no-repeat right top;
+	margin-right: 15px;
+}
 h1{
 	color: #fff;
 	font: 67px/63px 'Wire One', sans-serif;
-	margin: 50px 20px 10px;
+	margin: 0 20px;
+	padding: 50px 0 0;
 	width: 225px;
 }
 h2{
@@ -13,7 +18,7 @@ h2{
 	border-radius: 13px;
 	color: #fff;
 	font: 18px/26px 'Abel', sans-serif;
-	margin: 0 auto;
+	margin: 50px auto 0;
 	text-align: center;
 	text-transform: uppercase;
 	width: 225px;
@@ -21,13 +26,15 @@ h2{
 h2.recent{
 	background: #f0f;
 	font-size: 16px;
+	margin-top: 20px;
 }
 ul.wp-polls-ul{
-	margin: 25px 5px;
+	margin: 10px 5px;
 	overflow: hidden;
 }
 ul.wp-polls-ul li{
 	float: left;
+	margin: 14px 0;
 	position: relative;
 	width: 170px;
 }
@@ -53,8 +60,37 @@ ul.wp-polls-ul label{
 	right: 18px;
 	top: 130px;
 }
-.recent-img{
+ul.wp-polls-ul span{
+	color: #fff;
+	float: left;
+	font: bold 12px/14px 'Quicksand', sans-serif;
+	height: 28px;
+	margin: 0 0 0 18px;
+	overflow: hidden;
+	width: 100px;
+}
+ul.wp-polls-ul mark{
+	background: none;
+	border: 3px solid #4761ff;
+	border-radius: 6px;
+	color: #fff;
+	float: left;
+	font: 14px/22px 'Anton', sans-serif;
+	text-align: center;
+	width: 30px;
+}
+ul.wp-polls-ul img{
 	border-radius: 16px;
 	border: 8px solid #ef81f2 !important;
 	margin: 5px !important;
+}
+
+ul.all label{
+	background: #4761ff;
+}
+ul.all mark{
+	border-color: #ef81f2;
+}
+ul.all img{
+	border-color: #6984f7 !important;
 }

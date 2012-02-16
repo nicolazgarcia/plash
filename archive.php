@@ -12,7 +12,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<div id="header">
-		<h1>VOTA POR TU LOOK FAVORITO</h1>
+		<h1><span style="color:#ec297b;">VOTA POR</span> TU <span style="color:#00a79d;">LOOK FAVORITO</span></h1>
 	</div>
 
 <?php if (function_exists('vote_poll') && !in_pollarchive()): ?>

@@ -4,6 +4,8 @@ add_image_size('leader-thumb', 189, 189, true);
 add_image_size('latest-thumb', 75, 75, true);
 add_image_size('look-thumb', 272, 196, true);
 add_image_size('product-thumb', 160, 160);
+add_image_size('contest-thumb', 144, 144, true);
+add_image_size('contest-full', 250, 300);
 
 /*
  * jQuery desde Google
@@ -43,4 +45,26 @@ function widgets_init() {
 }
 /** Register sidebars by running starkers_widgets_init() on the widgets_init hook. */
 add_action( 'widgets_init', 'widgets_init' );
+
+// Registrar post types
+add_action( 'init', 'create_type_concursante' );
+
+function create_type_concursante() {
+	register_post_type( 'concursante',
+	array(
+		'labels' => array(
+			'name' => 'Concursantes',
+			'singular_name' => 'Concursante'
+			),
+		'public' => true,
+		'supports' => array('title', 'editor', 'thumbnail'),
+		'menu_position' => 20,
+		'rewrite' =>  array(
+			'slug' => 'concursante',
+			'with_front' => true
+			),
+		'has_archive' => 'concurso'
+		)
+	);
+}
 ?>

@@ -22,3 +22,39 @@ h2.recent{
 	background: #f0f;
 	font-size: 16px;
 }
+ul.wp-polls-ul{
+	margin: 25px 5px;
+	overflow: hidden;
+}
+ul.wp-polls-ul li{
+	float: left;
+	position: relative;
+	width: 170px;
+}
+ul.wp-polls-ul input[type=radio]{
+	cursor: pointer;
+	height: 22px;
+	margin: 0;
+	opacity: 0;
+	padding: 0;
+	position: absolute;
+	right: 18px;
+	width: 44px;
+	top: 130px;
+}
+ul.wp-polls-ul label{
+	background: #ef81f2;
+	border-radius: 11px;
+	color: #fff;
+	cursor: pointer;
+	font: 13px/22px 'Anton', sans-serif;
+	padding: 0 8px;
+	position: absolute;
+	right: 18px;
+	top: 130px;
+}
+.recent-img{
+	border-radius: 16px;
+	border: 8px solid #ef81f2 !important;
+	margin: 5px !important;
+}

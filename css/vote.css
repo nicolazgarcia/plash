@@ -1,5 +1,5 @@
 body{
-	background: url("../images/fondo1.jpg") no-repeat fixed;
+	background: url("../images/fondo1.jpg");
 	width: 520px;
 }
 #header{
@@ -63,7 +63,7 @@ ul.wp-polls-ul label{
 ul.wp-polls-ul span{
 	color: #fff;
 	float: left;
-	font: bold 12px/14px 'Quicksand', sans-serif;
+	font: bold 11px/14px 'Quicksand', sans-serif;
 	height: 28px;
 	margin: 0 0 0 18px;
 	overflow: hidden;
@@ -93,4 +93,47 @@ ul.all mark{
 }
 ul.all img{
 	border-color: #6984f7 !important;
+}
+
+/*
+*/
+.wp-polls .Buttons {
+	display: none;
+}
+
+blockquote:before{
+	background: url("../images/globo_punta.png");
+	content: '';
+	display: block;
+	height: 58px;
+	margin-left: 38px;
+	width: 33px;
+}
+blockquote{
+	color: #fff;
+	float: left;
+	font: bold 11px/14px 'Quicksand', sans-serif;
+	margin: 12px 0 0 40px;
+	text-align: center;
+	width: 253px;
+}
+blockquote p{
+	background: #ec297b;
+	border-radius: 30px;
+	margin: 0;
+	padding: 12px 6px 8px;
+}
+#participa{
+	float: left;
+	margin: 150px 10px -40px;
+}
+#footer{
+	background: url("../images/las_logo_marquilla.jpg") no-repeat center bottom;
+	clear: both;
+	padding: 0 10px 24px;
+	width: 84px;
+}
+#footer img{
+	margin: 5px;
+	vertical-align: top;
 }

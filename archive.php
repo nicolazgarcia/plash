@@ -21,13 +21,13 @@
 
 	<blockquote>
 		<p>Vota por el look que más te gusta, las fotos más votadas serán finalistas y podrán ganar un Paseo en VIP Bus con open bar incluido y boquitas para ti y tus 25 mejores amigos. Ademas de $50 en productos LASplash Cosmetics.</p>
-	</blockquote>
+	</blockquote>	
+	<div id="participa">
+		<a href="https://www.facebook.com/LASplashPanama?sk=app_343971698958398"><img src="<?php bloginfo('template_directory');?>/images/participa.png" /></a>
+	</div>
 	<div id="footer">
-		<div id="participa">
-			<a href="https://www.facebook.com/LASplashPanama?sk=app_343971698958398">Participa Ya!</a>
-		</div>
-		<a href="https://www.facebook.com/LASplashPanama">Facebook</a>
-		<a href="http://twitter.com/lasplashpanama">Twitter</a>
+		<a href="http://twitter.com/lasplashpanama"><img src="<?php bloginfo('template_directory');?>/images/las_twitter.png" /></a>
+		<a href="https://www.facebook.com/LASplashPanama"><img src="<?php bloginfo('template_directory');?>/images/las_facebook.png" /></a>
 	</div>
 
 	<?php wp_footer();?>

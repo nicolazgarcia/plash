@@ -137,3 +137,42 @@ blockquote p{
 	margin: 5px;
 	vertical-align: top;
 }
+
+#lightbox{
+	background-color: rgba(0,0,0,.68);
+	border-radius: 16px;
+	display: none;
+	height: 420px;
+	left: 12px;
+	position: fixed;
+	top: 24px;
+	width: 496px;
+}
+#close-box{
+	background: url("../images/cerrar.png");
+	cursor: pointer;
+	float: right;
+	height: 33px;
+	margin: 6px;
+	text-indent: -9999px;
+	width: 33px;
+}
+#big-pic{
+	float: left;
+	margin: 40px 12px 8px;
+	text-align: center;
+}
+#big-pic img{
+	border-radius: 16px;
+	border: 8px solid #ef81f2;
+	margin: 6px 0;
+}
+#big-pic input{
+	background: #4761ff;
+	border-radius: 11px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font: 26px/44px 'Anton', sans-serif;
+	padding: 0 8px;
+}

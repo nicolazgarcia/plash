@@ -24,6 +24,18 @@
 				fx: 'fade',
 				timeout: 900
 			});
+
+			$(".recent-img, .big-img").load(function() {
+				if ($(this).parent().hasClass('big-img') ){
+					$(this).parent().css('background-image', 'url("' + $(this).attr('src') + '")');
+					$(this).parent().width( $(this).width() ).height( $(this).height() );
+				}else{
+					$(this).wrap(function(){
+						return '<span class="' + $(this).attr('class') + '" style="background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' + $(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+					});
+				}
+				$(this).css("display","none");
+			});
 		});
 	})(jQuery);
 	</script>
@@ -55,9 +67,7 @@
 	<div id="lightbox">
 		<div id="close-box">X</div>
 		<div id="big-pic">
-			<div id="big-picwrap">
-				<img src="<?php bloginfo('template_directory');?>/images/loader.gif" />
-			</div>
+			<img class="big-img" src="<?php bloginfo('template_directory');?>/images/loader.gif" />
 			<input type="button" value="votar" name="vote">
 		</div>
 	</div>

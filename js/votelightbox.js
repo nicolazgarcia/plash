@@ -8,10 +8,10 @@
 			$('#lightbox').css('top', (scrollTop+24)+'px');
 
 			var img_src = $(this).parent().attr('data-img-src');
-			$('#big-pic img').attr('src', img_src);
+			$('.big-img').attr('src', img_src);
 
 			if ( $('.wp-polls-form').length == 0 ){
-				$('#big-pic input').replaceWith('<p>Ya haz votado por tu amiga, ¡cuéntale a más personas para que tu amiga sea finalista!</p>');
+				$('#big-pic input').replaceWith('<p>Ya has votado por tu amiga, ¡cuéntale a más personas para que tu amiga sea finalista!</p>');
 			}
 
 			$('#lightbox').fadeIn();

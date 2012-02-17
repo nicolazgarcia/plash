@@ -55,8 +55,9 @@
 	<div id="lightbox">
 		<div id="close-box">X</div>
 		<div id="big-pic">
-			<img src="<?php bloginfo('template_directory');?>/images/loader.gif" />
-			<br />
+			<div id="big-picwrap">
+				<img src="<?php bloginfo('template_directory');?>/images/loader.gif" />
+			</div>
 			<input type="button" value="votar" name="vote">
 		</div>
 	</div>

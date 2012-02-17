@@ -98,10 +98,14 @@ ul.wp-polls-ul mark{
 	text-align: center;
 	width: 30px;
 }
-ul.wp-polls-ul img{
+.imgwrap{
 	-moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px;
-	border: 6px solid #ef81f2 !important;
-	margin: 4px !important;
+	border: 6px solid #ef81f2;
+	margin: 4px;
+	overflow: hidden;
+}
+ul.wp-polls-ul img{
+	vertical-align: top;
 }
 
 ul.all label{
@@ -116,7 +120,7 @@ ul.all label:active{
 ul.all mark{
 	border-color: #ef81f2;
 }
-ul.all img{
+ul.all .imgwrap{
 	border-color: #6984f7 !important;
 }
 
@@ -177,15 +181,20 @@ blockquote p{
 	width: 33px;
 }
 #big-pic{
-	float: left;
+	clear: both;
 	margin: 4px 12px 8px;
 	max-width: 266px;
 	text-align: center;
 }
-#big-pic img{
+#big-picwrap{
 	-moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px;
 	border: 8px solid #ef81f2;
+	display: inline-block;
 	margin: 6px 0;
+	overflow: hidden;
+}
+#big-pic img{
+	vertical-align: top;
 }
 #big-pic input{
 	background: #4761ff;

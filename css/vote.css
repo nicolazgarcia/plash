@@ -128,7 +128,7 @@ blockquote:before{
 blockquote{
 	color: #fff;
 	float: left;
-	font: bold 11px/14px 'Quicksand', sans-serif;
+	font: bold 12px/15px 'Quicksand', sans-serif;
 	margin: 12px 0 0 40px;
 	text-align: center;
 	width: 253px;
@@ -159,11 +159,10 @@ blockquote p{
 	background: rgba(0,0,0,.68);
 	-moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px;
 	display: none;
-	height: 420px;
-	left: 12px;
+	left: 105px;
 	position: absolute;
 	top: 24px;
-	width: 496px;
+	width: 290px;
 }
 #close-box{
 	background: url("../images/cerrar.png");
@@ -176,8 +175,8 @@ blockquote p{
 }
 #big-pic{
 	float: left;
-	margin: 40px 12px 8px;
-	max-width: 420px;
+	margin: 4px 12px 8px;
+	max-width: 266px;
 	text-align: center;
 }
 #big-pic img{
@@ -201,7 +200,11 @@ blockquote p{
 	background: #35e;
 }
 #big-pic p{
+	background: url('rgba.php/rgba(239,129,242,0.5)');
+	background: rgba(239,129,242,0.5);
+	-moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px;
 	color: #fff;
-	font: bold 16px/20px 'Quicksand', sans-serif;
-	margin: 0;
+	font: bold 13px/15px 'Quicksand', sans-serif;
+	margin: 20px 0 0;
+	padding: 12px;
 }

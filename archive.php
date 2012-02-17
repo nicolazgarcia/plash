@@ -12,6 +12,9 @@
 	wp_enqueue_script('votelightbox', get_bloginfo('template_directory').'/js/votelightbox.js', array('jquery'));
 	wp_head();
 	?>
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body <?php body_class(); ?>>
 	<div id="header">

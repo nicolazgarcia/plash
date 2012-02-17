@@ -151,7 +151,7 @@ blockquote p{
 	display: none;
 	height: 420px;
 	left: 12px;
-	position: fixed;
+	position: absolute;
 	top: 24px;
 	width: 496px;
 }

@@ -1,6 +1,16 @@
 body{
-	background: url("../images/fondo1.jpg");
+	background-color: #000;
+	height: 800px;
+	overflow-y: scroll;
 	width: 520px;
+}
+#bg{
+	height:800px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:520px;
+	z-index:-100;
 }
 #header{
 	background: url("../images/logo_ctl-01.png") no-repeat right top;
@@ -29,14 +39,14 @@ h2.recent{
 	margin-top: 20px;
 }
 ul.wp-polls-ul{
-	margin: 10px 5px;
+	margin: 10px 4px;
 	overflow: hidden;
 }
 ul.wp-polls-ul li{
 	float: left;
 	margin: 14px 0;
 	position: relative;
-	width: 170px;
+	width: 164px;
 }
 ul.wp-polls-ul input[type=radio]{
 	cursor: pointer;
@@ -87,8 +97,8 @@ ul.wp-polls-ul mark{
 }
 ul.wp-polls-ul img{
 	-moz-border-radius: 16px; -webkit-border-radius: 16px; border-radius: 16px;
-	border: 8px solid #ef81f2 !important;
-	margin: 5px !important;
+	border: 6px solid #ef81f2 !important;
+	margin: 4px !important;
 }
 
 ul.all label{

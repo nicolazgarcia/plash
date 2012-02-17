@@ -29,6 +29,7 @@
 	</script>
 </head>
 <body <?php body_class(); ?>>
+	<div id="container">
 	<div id="bg">
 		<img src="<?php bloginfo('template_directory');?>/images/fondo1.jpg" /><img src="<?php bloginfo('template_directory');?>/images/fondo2.jpg" /><img src="<?php bloginfo('template_directory');?>/images/fondo3.jpg" />
 	</div>
@@ -50,7 +51,7 @@
 		<a href="http://twitter.com/lasplashpanama"><img src="<?php bloginfo('template_directory');?>/images/las_twitter.png" /></a>
 		<a href="https://www.facebook.com/LASplashPanama"><img src="<?php bloginfo('template_directory');?>/images/las_facebook.png" /></a>
 	</div>
-
+	</div>
 	<div id="lightbox">
 		<div id="close-box">X</div>
 		<div id="big-pic">

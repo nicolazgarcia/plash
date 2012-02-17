@@ -60,6 +60,12 @@ ul.wp-polls-ul label{
 	right: 18px;
 	top: 130px;
 }
+ul.wp-polls-ul label:hover{
+	background: #d9e;
+}
+ul.wp-polls-ul label:active{
+	background: #d5e;
+}
 ul.wp-polls-ul span{
 	color: #fff;
 	float: left;
@@ -87,6 +93,12 @@ ul.wp-polls-ul img{
 
 ul.all label{
 	background: #4761ff;
+}
+ul.all label:hover{
+	background: #79e;
+}
+ul.all label:active{
+	background: #35e;
 }
 ul.all mark{
 	border-color: #ef81f2;
@@ -175,4 +187,10 @@ blockquote p{
 	cursor: pointer;
 	font: 26px/44px 'Anton', sans-serif;
 	padding: 0 8px;
+}
+#big-pic input:hover{
+	background: #79e;
+}
+#big-pic input:active{
+	background: #35e;
 }

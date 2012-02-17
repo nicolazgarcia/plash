@@ -8,7 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/css/vote.css" />
 	<link href='http://fonts.googleapis.com/css?family=Abel|Quicksand:400,700|Wire+One|Anton' rel='stylesheet' type='text/css'>
-	<?php wp_head();?>
+	<?php
+	wp_enqueue_script('votelightbox', get_bloginfo('template_directory').'/js/votelightbox.js', array('jquery'));
+	wp_head();
+	?>
 </head>
 <body <?php body_class(); ?>>
 	<div id="header">

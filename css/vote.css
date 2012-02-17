@@ -107,12 +107,6 @@ ul.all img{
 	border-color: #6984f7 !important;
 }
 
-/*
-*/
-.wp-polls .Buttons {
-	display: none;
-}
-
 blockquote:before{
 	background: url("../images/globo_punta.png");
 	content: '';
@@ -170,7 +164,9 @@ blockquote p{
 	width: 33px;
 }
 #big-pic{
+	color: #FFFFFF;
 	float: left;
+	font: bold 18px/24px 'Quicksand', sans-serif;
 	margin: 40px 12px 8px;
 	text-align: center;
 }

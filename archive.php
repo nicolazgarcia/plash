@@ -13,6 +13,9 @@
 	wp_enqueue_script('votelightbox', get_bloginfo('template_directory').'/js/votelightbox.js', array('jquery'));
 	wp_head();
 	?>
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 	<script type="text/javascript">
 	(function($)
 	{
@@ -24,15 +27,10 @@
 		});
 	})(jQuery);
 	</script>
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body <?php body_class(); ?>>
 	<div id="bg">
-		<img src="<?php bloginfo('template_directory');?>/images/fondo1.jpg" />
-		<img src="<?php bloginfo('template_directory');?>/images/fondo2.jpg" />
-		<img src="<?php bloginfo('template_directory');?>/images/fondo3.jpg" />
+		<img src="<?php bloginfo('template_directory');?>/images/fondo1.jpg" /><img src="<?php bloginfo('template_directory');?>/images/fondo2.jpg" /><img src="<?php bloginfo('template_directory');?>/images/fondo3.jpg" />
 	</div>
 	<div id="header">
 		<h1><span style="color:#ec297b;">VOTA POR</span> TU <span style="color:#00a79d;">LOOK FAVORITO</span></h1>
@@ -61,7 +59,6 @@
 			<input type="button" value="votar" name="vote">
 		</div>
 	</div>
-
 	<?php wp_footer();?>
 </body>
 </html>

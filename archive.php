@@ -60,8 +60,9 @@
 		<a href="https://www.facebook.com/LASplashPanama?sk=app_343971698958398"><img src="<?php bloginfo('template_directory');?>/images/participa.png" /></a>
 	</div>
 	<div id="footer">
-		<a href="http://twitter.com/lasplashpanama"><img src="<?php bloginfo('template_directory');?>/images/las_twitter.png" /></a>
-		<a href="https://www.facebook.com/LASplashPanama"><img src="<?php bloginfo('template_directory');?>/images/las_facebook.png" /></a>
+		<a class="logo-tw" href="http://twitter.com/lasplashpanama"><img src="<?php bloginfo('template_directory');?>/images/las_twitter.png" /></a>
+		<a class="logo-fb" href="https://www.facebook.com/LASplashPanama"><img src="<?php bloginfo('template_directory');?>/images/las_facebook.png" /></a>
+		<a href="http://lasplashcosmetics.com.pa"><img src="<?php bloginfo('template_directory');?>/images/las_logo_marquilla.jpg" /></a>
 	</div>
 	</div>
 	<div id="lightbox">

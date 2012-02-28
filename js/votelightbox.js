@@ -25,7 +25,7 @@
 		var sendVote = function(e)
 		{
 			var poll_id = $('.wp-polls-form input[name=poll_id]').val();
-			poll_vote(2);
+			poll_vote(poll_id);
 
 			$('#big-pic input').ajaxSuccess(function(e, xhr, settings) {
 				if (xhr.status == 200){

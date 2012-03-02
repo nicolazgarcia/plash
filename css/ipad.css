@@ -141,3 +141,13 @@ a.facebook {
 	margin-top:25px;
 	background:url(../images/conjunto_lasplash.png) no-repeat;
 }
+.foto_foot_instrucciones { 
+    width:520px;
+	height:451px;
+	display:block;
+	margin-top:25px;
+	background:url(../images/conjunto_lasplash_b.png) no-repeat;
+}
+.bg-instrucciones {
+	background-position:bottom left;
+}
